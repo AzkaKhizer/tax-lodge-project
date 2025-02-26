@@ -16,52 +16,52 @@ const Hero = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:block",
+                className: "hidden md:block pt-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-evenly items-center",
+                    className: " bg-[#F2F2F2] min-h-screen flex items-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#F2F2F2] min-h-screen flex items-center ",
+                        className: "w-full max-w-[1200px] mx-auto flex justify-between items-center px-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mx-auto flex flex-col justify-start items-start w-full max-w-[896px] ml-6",
+                                className: "max-w-[550px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "md:text-[20px] text-center mt-12 font-semibold text-white border border-[#FE5722] rounded-[8px] bg-[#FE5722] w-[490px] h-[38px] flex items-center justify-center",
+                                        className: "text-[20px] font-semibold text-white border border-[#FE5722] rounded-[8px] bg-[#FE5722] px-4 py-2 w-fit",
                                         children: "SMART TAX SOLUTIONS FOR FINANCIAL SUCCESS"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 12,
-                                        columnNumber: 9
+                                        lineNumber: 13,
+                                        columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "md:text-[50px] font-bold mt-4",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: "text-[50px] font-bold mt-4 leading-tight",
                                         children: "Effortless Tax Solutions & Trusted Financial Guidance."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 15,
-                                        columnNumber: 9
+                                        lineNumber: 16,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg md:text-xl mb-7 w-[740px] mt-6",
+                                        className: "text-lg mt-6",
                                         children: "We provide expert tax and accounting services designed to make tax lodgment stress-free, ensuring individuals and businesses stay compliant while maximizing their financial benefits."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 9
+                                        lineNumber: 19,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "bg-[#FE5722] mt-6 text-white font-semibold py-3 px-8 rounded-[10px] hover:bg-white hover:text-[#FE5722] transition duration-300",
                                         children: "GET STARTED"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 9
+                                        lineNumber: 24,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Hero.tsx",
-                                lineNumber: 11,
-                                columnNumber: 7
+                                lineNumber: 12,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative w-[566px] h-[650px]",
@@ -70,91 +70,91 @@ const Hero = ()=>{
                                         src: "/Frame1.png",
                                         alt: "hero background",
                                         width: 566,
-                                        height: 566,
+                                        height: 650,
                                         className: "absolute top-0 left-0"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 31,
-                                        columnNumber: 9
+                                        lineNumber: 32,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/man.png",
                                         alt: "hero person",
-                                        width: 589,
-                                        height: 400,
-                                        className: "absolute top-32 left-[-60px] w-full h-full object-contain"
+                                        width: 500,
+                                        height: 573,
+                                        objectFit: "cover",
+                                        className: "absolute  inset-0 top-[150px] left-[-20px] object-fill w-full h-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
-                                        lineNumber: 34,
-                                        columnNumber: 9
+                                        lineNumber: 41,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Hero.tsx",
-                                lineNumber: 29,
-                                columnNumber: 7
+                                lineNumber: 30,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Hero.tsx",
-                        lineNumber: 9,
-                        columnNumber: 5
+                        lineNumber: 10,
+                        columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Hero.tsx",
-                    lineNumber: 8,
-                    columnNumber: 5
+                    lineNumber: 9,
+                    columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Hero.tsx",
-                lineNumber: 7,
-                columnNumber: 5
+                lineNumber: 8,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col justify-center items-center ",
+                    className: "flex flex-col justify-center items-center text-center px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-[40px] mt-24 font-bold text-center p-8",
+                            className: "text-[40px] mt-24 font-bold",
                             children: [
-                                "Welcome To  ",
+                                "Welcome To ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-[#FE5722]",
-                                    children: " Tax Lodge Online"
+                                    children: "Tax Lodge Online"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Hero.tsx",
-                                    lineNumber: 49,
-                                    columnNumber: 73
-                                }, this),
-                                "  "
+                                    lineNumber: 59,
+                                    columnNumber: 24
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Hero.tsx",
-                            lineNumber: 49,
-                            columnNumber: 1
+                            lineNumber: 58,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             src: "/tlo.png",
                             alt: "tlo",
                             width: 405,
                             height: 243,
-                            className: " w-full h-full object-contain"
+                            className: "w-full h-auto object-contain mt-4"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/Hero.tsx",
-                            lineNumber: 51,
-                            columnNumber: 1
+                            lineNumber: 61,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Hero.tsx",
-                    lineNumber: 48,
-                    columnNumber: 1
+                    lineNumber: 57,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Hero.tsx",
-                lineNumber: 45,
-                columnNumber: 5
+                lineNumber: 56,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {

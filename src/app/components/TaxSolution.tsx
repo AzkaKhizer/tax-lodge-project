@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row  items-center md:justify-between bg-[#FF8B66] text-white md:pl-12 mt-28">
+    <section className="flex flex-col md:flex-row  items-center md:justify-between bg-[#FF8B66] text-white md:pl-12 mt-28 max-w-screen-2xl mx-auto overflow-x-hidden">
       {/* Left Content */}
       <div className="md:w-1/2 flex justify-center items-start ml-5 md:ml-20 flex-col">
         <h2 className=" text-[30px] md:text-[44px] font-semibold md:w-[578px] mb-6 mt-4 md:mt-0 md:mb-10">
