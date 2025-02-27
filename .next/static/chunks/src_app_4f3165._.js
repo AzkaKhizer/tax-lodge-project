@@ -180,7 +180,7 @@ function PayCalculator() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                             onClick: ()=>setState(true),
-                                                            className: `px-4 py-4 rounded-[50px] transition-all ${state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`,
+                                                            className: `px-5 py-2 rounded-[50px] transition-all hover:text-orange-500 hover:text-lg hover:shadow-inner ${state ? "text-orange-600 shadow-inner " : "text-[#A19C9C]"}`,
                                                             children: "YES"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/PayCalculator.tsx",
@@ -189,7 +189,7 @@ function PayCalculator() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                             onClick: ()=>setState(false),
-                                                            className: `px-4 py-4 rounded-[50px] transition-all ${!state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`,
+                                                            className: `px-5 py-2 rounded-[50px] transition-all hover:text-orange-500 hover:text-lg hover:shadow-inner ${!state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`,
                                                             children: "NO"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/PayCalculator.tsx",

@@ -101,13 +101,13 @@ export default function PayCalculator() {
                   <div className="bg-[#F8F8F8] flex justify-between px-6 items-center w-[198px] h-[64px] border shadow-lg rounded-[50px]">
                     <button
                       onClick={() => setState(true)}
-                      className={`px-4 py-4 rounded-[50px] transition-all ${state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`}
+                      className={`px-5 py-2 rounded-[50px] transition-all hover:text-orange-500 hover:text-lg hover:shadow-inner ${state ? "text-orange-600 shadow-inner " : "text-[#A19C9C]"}`}
                     >
                       YES
                     </button>
                     <button
                       onClick={() => setState(false)}
-                      className={`px-4 py-4 rounded-[50px] transition-all ${!state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`}
+                      className={`px-5 py-2 rounded-[50px] transition-all hover:text-orange-500 hover:text-lg hover:shadow-inner ${!state ? "text-orange-600 shadow-inner" : "text-[#A19C9C]"}`}
                     >
                       NO
                     </button>

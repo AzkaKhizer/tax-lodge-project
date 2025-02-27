@@ -19,7 +19,7 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 ">
           <Link href="/" className="text-black hover:text-[#FE5722] ">Home</Link>
-          <Link href="/online-tax-return" className="text-black hover:text-[#FE5722]">Online Tax Return</Link>
+          <Link href="/ServiceDetails" className="text-black hover:text-[#FE5722]">Services</Link>
           <Link href="/business-tax" className="text-black hover:text-[#FE5722]">Business Tax</Link>
           <Link href="/blog" className="text-black hover:text-[#FE5722]">Blog</Link>
           <Link href="/PricingPage" className="text-black hover:text-[#FE5722]">Pricing</Link>
@@ -49,12 +49,12 @@ const Header = () => {
       {isOpen && (
         <nav className="md:hidden mt-4 flex flex-col space-y-4 text-black">
           <Link href="/" className="hover:text-[#FE5722] ">Home</Link>
-          <Link href="/online-tax-return" className="hover:text-[#FE5722]">Online Tax Return</Link>
+          <Link href="/ServiceDetails" className="hover:text-[#FE5722]">Sevices</Link>
           <Link href="/business-tax" className="hover:text-[#FE5722]">Business Tax</Link>
           <Link href="/blog" className="hover:text-[#FE5722]">Blog</Link>
-          <Link href="/pricing" className="hover:text-[#FE5722]">Pricing</Link>
-          <Link href="/pay-calculator" className="hover:text-[#FE5722]">Pay Calculator</Link>
-          <Link href="/contact" className="hover:text-[#FE5722]">Contact</Link>
+          <Link href="/PricingPage" className="hover:text-[#FE5722]">Pricing</Link>
+          <Link href="/Calculator" className="hover:text-[#FE5722]">Pay Calculator</Link>
+          <Link href="/ContactUs" className="hover:text-[#FE5722]">Contact</Link>
 
           {/* Search & CTA in Mobile Menu */}
           <div className="flex items-center space-x-4 mt-4">
