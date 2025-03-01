@@ -22,8 +22,9 @@ const About = () => {
             <div className='flex flex-col  ml-6 mt-5 mb-5 '>
             <h2 className='text-[20px] font-semibold mb-4'>We Review And Lodge</h2>
             <p className='text-[16px] w-[231px] '>From personal tax returns to business tax compliance, we offer tailored solutions designed to simplify the process and maximize your returns.</p>
-            <Link href="/" className="text-[#FE5722] text-lg font-semibold  hover:text-orange-700 ">LEARN MORE</Link>
-
+            <div className='block md:hidden'>
+            <Link href="/" className="text-[#FE5722] text-lg font-semibold  hover:text-orange-700 ">LEARN MORE</Link> 
+            </div>
             
             </div>
             

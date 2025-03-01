@@ -20,7 +20,7 @@ const Header = () => {
         <nav className="hidden md:flex space-x-6 ">
           <Link href="/" className="text-black hover:text-[#FE5722] ">Home</Link>
           <Link href="/ServiceDetails" className="text-black hover:text-[#FE5722]">Services</Link>
-          <Link href="/business-tax" className="text-black hover:text-[#FE5722]">Business Tax</Link>
+          <Link href="/BusinessTax" className="text-black hover:text-[#FE5722]">Business Tax</Link>
           <Link href="/blog" className="text-black hover:text-[#FE5722]">Blog</Link>
           <Link href="/PricingPage" className="text-black hover:text-[#FE5722]">Pricing</Link>
           <Link href="/Calculator" className="text-black hover:text-[#FE5722]">Pay Calculator</Link>
@@ -50,7 +50,7 @@ const Header = () => {
         <nav className="md:hidden mt-4 flex flex-col space-y-4 text-black">
           <Link href="/" className="hover:text-[#FE5722] ">Home</Link>
           <Link href="/ServiceDetails" className="hover:text-[#FE5722]">Sevices</Link>
-          <Link href="/business-tax" className="hover:text-[#FE5722]">Business Tax</Link>
+          <Link href="/BusinessTax" className="hover:text-[#FE5722]">Business Tax</Link>
           <Link href="/blog" className="hover:text-[#FE5722]">Blog</Link>
           <Link href="/PricingPage" className="hover:text-[#FE5722]">Pricing</Link>
           <Link href="/Calculator" className="hover:text-[#FE5722]">Pay Calculator</Link>

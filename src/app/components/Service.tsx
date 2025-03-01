@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Search, Send } from "lucide-react"; // For search & send icons
 import { FaInstagram, FaFacebookF } from "react-icons/fa"; 
+import Link from "next/link";
 
 const service = [
     "Online Tax Return",
@@ -149,18 +150,37 @@ export default function TaxServices() {
 
         {/* Services List */}
         <h2 className="text-[20px]  pt-6 mb-2 font-bold">Our Services</h2>
+       
         <ul className="space-y-4">
   {filteredServices.map((service, index) => (
     <li
       key={index}
-      className="flex justify-between items-center p-4 bg-white border border-white  rounded-lg shadow-lg shadow-[#FFE1D8] cursor-pointer hover:bg-orange-200 transition"
+      className="flex justify-between items-center p-4 bg-white border border-white rounded-lg shadow-lg shadow-[#FFE1D8] cursor-pointer hover:bg-orange-200 transition"
     >
-      <span className="text-black text-[18px] font-semibold">{service}</span> {/* ✅ Corrected */}
-      <span className="text-black border-[#FFE1D8] bg-[#FFE1D8] rounded-full px-3 py-2 hover:bg-orange-300">➜</span>
+      {/* Link on text */}
+      {service === "Online Tax Return" ? (
+        <Link href="/OnlineTaxReturn" className="text-black text-[18px] font-semibold">
+          {service}
+        </Link>
+      ) : (
+        <span className="text-black text-[18px] font-semibold">{service}</span>
+      )}
+
+      {/* Link on arrow */}
+      {service === "Online Tax Return" ? (
+        <Link href="/OnlineTaxReturn">
+          <span className="text-black border-[#FFE1D8] bg-[#FFE1D8] rounded-full px-3 py-2 hover:bg-orange-300">
+            ➜
+          </span>
+        </Link>
+      ) : (
+        <span className="text-black border-[#FFE1D8] bg-[#FFE1D8] rounded-full px-3 py-2 hover:bg-orange-300">
+          ➜
+        </span>
+      )}
     </li>
   ))}
 </ul>
-
 
         {/* Contact Us Section */}
         <div className="mt-10 p-8 bg-white shadow-lg rounded-lg  h-[180px] ">
