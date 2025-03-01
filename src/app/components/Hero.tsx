@@ -6,10 +6,10 @@ const Hero = () => {
     <div >
       {/* Desktop View */}
       <div className="hidden md:block pt-10">
-      <div className=" bg-[#F2F2F2] min-h-screen flex items-center">
-        <div className="w-full max-w-[1200px] mx-auto flex justify-between items-center px-6">
+      <div className=" bg-[#F2F2F2]  flex items-center">
+        <div className="w-full  mx-auto flex justify-between items-center px-6">
           {/* Left Text Section */}
-          <div className="max-w-[550px]">
+          <div className="max-w-[896px]">
             <h2 className="text-[20px] font-semibold text-white border border-[#FE5722] rounded-[8px] bg-[#FE5722] px-4 py-2 w-fit">
               SMART TAX SOLUTIONS FOR FINANCIAL SUCCESS
             </h2>
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           {/* Right Image Section */}
-          <div className="relative w-[566px] h-[650px]">
+          <div className="relative w-[566px] h-[650px] ">
             {/* Background Frame */}
             <Image
               src="/Frame1.png"
@@ -41,9 +41,9 @@ const Hero = () => {
             <Image
               src="/man.png"
               alt="hero person"
-              width={500}
+              width={600}
               height={573}
-               objectFit="cover"
+               
                
               className="absolute  inset-0 top-[150px] left-[-20px] object-fill w-full h-full"
             />
@@ -54,7 +54,7 @@ const Hero = () => {
 
       {/* Mobile View */}
       <div className="block md:hidden bg-white">
-        <div className="flex flex-col justify-center items-center text-center px-6">
+        <div className="flex flex-col justify-center items-center text-center px-6 mt-5">
           <h2 className="text-[40px] mt-24 font-bold">
             Welcome To <span className="text-[#FE5722]">Tax Lodge Online</span>
           </h2>

@@ -48,16 +48,16 @@ const Header = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <nav className="md:hidden mt-4 flex flex-col space-y-4 text-black">
-          <Link href="/" className="hover:text-[#FE5722] ">Home</Link>
-          <Link href="/ServiceDetails" className="hover:text-[#FE5722]">Sevices</Link>
-          <Link href="/BusinessTax" className="hover:text-[#FE5722]">Business Tax</Link>
-          <Link href="/blog" className="hover:text-[#FE5722]">Blog</Link>
-          <Link href="/PricingPage" className="hover:text-[#FE5722]">Pricing</Link>
-          <Link href="/Calculator" className="hover:text-[#FE5722]">Pay Calculator</Link>
-          <Link href="/ContactUs" className="hover:text-[#FE5722]">Contact</Link>
+          <Link href="/" className="hover:text-[#FE5722] ml-3 ">Home</Link>
+          <Link href="/ServiceDetails" className="hover:text-[#FE5722] ml-3 ">Sevices</Link>
+          <Link href="/BusinessTax" className="hover:text-[#FE5722] ml-3 ">Business Tax</Link>
+          <Link href="/blog" className="hover:text-[#FE5722] ml-3 ">Blog</Link>
+          <Link href="/PricingPage" className="hover:text-[#FE5722] ml-3 ">Pricing</Link>
+          <Link href="/Calculator" className="hover:text-[#FE5722] ml-3 ">Pay Calculator</Link>
+          <Link href="/ContactUs" className="hover:text-[#FE5722] ml-3 ">Contact</Link>
 
           {/* Search & CTA in Mobile Menu */}
-          <div className="flex items-center space-x-4 mt-4">
+          <div className="flex items-center space-x-4 mt-4 ml-3">
             <Search className="w-5 h-5 text-black cursor-pointer" />
             <div className="h-6 w-px bg-gray-400"></div>
             <Link href="/get-started">
