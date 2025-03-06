@@ -9,7 +9,7 @@ interface HexagonCardProps {
 
 const HexagonCard: React.FC<HexagonCardProps> = ({ icon, title, description, className }) => {
   return (
-    <div className="relative w-[280px] h-[240px] flex items-center justify-center">
+    <div className={`relative w-[280px] h-[240px] flex items-center justify-center ${className || ""}`}>
       {/* Background Hexagon Image */}
       <Image
         src="/frame.png" // Replace with your hexagon image path
@@ -29,5 +29,6 @@ const HexagonCard: React.FC<HexagonCardProps> = ({ icon, title, description, cla
     </div>
   );
 };
+
 
 export default HexagonCard;

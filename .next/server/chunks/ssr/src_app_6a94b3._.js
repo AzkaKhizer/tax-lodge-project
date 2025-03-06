@@ -39,8 +39,8 @@ function PayCalculator() {
         if (period === "monthly") annualIncome *= 12;
         else if (period === "fortnightly") annualIncome *= 26;
         else if (period === "weekly") annualIncome *= 52;
-        let superRate = includeSuper ? 0.105 : 0;
-        let superAmount = annualIncome * superRate;
+        const superRate = includeSuper ? 0.105 : 0;
+        const superAmount = annualIncome * superRate;
         let tax = 0;
         if (!isNonResident) {
             if (annualIncome > 180000) tax = (annualIncome - 180000) * 0.45 + 51667;
@@ -53,9 +53,9 @@ function PayCalculator() {
             else if (annualIncome > 45000) tax = (annualIncome - 45000) * 0.325 + 14625;
             else tax = annualIncome * 0.325;
         }
-        let medicareLevy = isNonResident ? 0 : annualIncome * 0.02;
-        let helpDebtAmount = includeHelpDebt ? annualIncome * 0.05 : 0;
-        let netIncome = annualIncome - (tax + medicareLevy + helpDebtAmount);
+        const medicareLevy = isNonResident ? 0 : annualIncome * 0.02;
+        const helpDebtAmount = includeHelpDebt ? annualIncome * 0.05 : 0;
+        const netIncome = annualIncome - (tax + medicareLevy + helpDebtAmount);
         setResult({
             grossIncome: annualIncome,
             superannuation: superAmount,
@@ -82,19 +82,19 @@ function PayCalculator() {
                             height: 424
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                            lineNumber: 65,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                        lineNumber: 64,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-px h-[425px] bg-[#A19C9C] mx-6 shadow-md shadow-gray-400 pl-[-4px]"
+                        className: "w-px h-[425px] bg-[#A19C9C] mx-6 shadow-md shadow-gray-400"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                        lineNumber: 67,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -105,7 +105,7 @@ function PayCalculator() {
                                 children: "Gross Income (Before Tax)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 69,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -116,7 +116,7 @@ function PayCalculator() {
                                 placeholder: "$0.00"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 70,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -132,12 +132,12 @@ function PayCalculator() {
                                         children: p.toUpperCase()
                                     }, p, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 78,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -166,7 +166,7 @@ function PayCalculator() {
                                                 children: label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -180,7 +180,7 @@ function PayCalculator() {
                                                             children: "YES"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 115,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -189,29 +189,29 @@ function PayCalculator() {
                                                             children: "NO"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                            lineNumber: 108,
+                                                            lineNumber: 123,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 114,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, label, true, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 111,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 92,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -222,24 +222,24 @@ function PayCalculator() {
                                     children: "CALCULATE"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 120,
+                                lineNumber: 137,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                        lineNumber: 68,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                lineNumber: 63,
+                lineNumber: 76,
                 columnNumber: 7
             }, this),
             result && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -257,7 +257,7 @@ function PayCalculator() {
                                         children: "YEAR"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 151,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -265,7 +265,7 @@ function PayCalculator() {
                                         children: "ANNUALLY"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 152,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -273,7 +273,7 @@ function PayCalculator() {
                                         children: "MONTHLY"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 153,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -281,7 +281,7 @@ function PayCalculator() {
                                         children: "FORTNIGHTLY"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 154,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -289,18 +289,18 @@ function PayCalculator() {
                                         children: "WEEKLY"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 155,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                lineNumber: 133,
+                                lineNumber: 150,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                            lineNumber: 132,
+                            lineNumber: 149,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -312,7 +312,7 @@ function PayCalculator() {
                                             children: key.replace(/([A-Z])/g, " $1").trim()
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                            lineNumber: 144,
+                                            lineNumber: 161,
                                             columnNumber: 19
                                         }, this),
                                         [
@@ -328,35 +328,35 @@ function PayCalculator() {
                                                 ]
                                             }, i, true, {
                                                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 163,
                                                 columnNumber: 21
                                             }, this))
                                     ]
                                 }, key, true, {
                                     fileName: "[project]/src/app/components/PayCalculator.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 160,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/PayCalculator.tsx",
-                            lineNumber: 141,
+                            lineNumber: 158,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/PayCalculator.tsx",
-                    lineNumber: 131,
+                    lineNumber: 148,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/PayCalculator.tsx",
-                lineNumber: 130,
+                lineNumber: 147,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/PayCalculator.tsx",
-        lineNumber: 62,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }

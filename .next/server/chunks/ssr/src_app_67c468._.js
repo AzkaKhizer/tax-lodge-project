@@ -42,14 +42,16 @@ function TaxServices() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "overflow-hidden ",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/service.png",
                                     alt: "Tax Consultation",
+                                    width: 500,
+                                    height: 300,
                                     className: "w-full h-auto"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Service.tsx",
                                     lineNumber: 31,
-                                    columnNumber: 11
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
@@ -64,7 +66,7 @@ function TaxServices() {
                                         children: "Individual & Sole Trader Tax Returns"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 37,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -72,13 +74,13 @@ function TaxServices() {
                                         children: "We are a team of dedicated IPA Tax Accountants and financial experts committed to providing personalized, professional, and secure tax and financial services. Our goal is to simplify complex financial processes and ensure that individuals and businesses receive the best possible tax outcomes and strategic financial advice. Whether you need tax return assistance, financial planning, or compliance support, we offer a comprehensive, data-driven approach tailored to your unique needs. With a focus on trust, accuracy, and efficiency, we help our clients navigate financial challenges and achieve their goals with confidence."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 35,
+                                lineNumber: 36,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -88,18 +90,19 @@ function TaxServices() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "bg-[#FFE5DD] p-3 rounded-[10px]",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     src: service.icon,
                                                     alt: service.title,
-                                                    className: "w-8 h-8"
+                                                    width: 32,
+                                                    height: 32
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/Service.tsx",
-                                                    lineNumber: 54,
-                                                    columnNumber: 17
+                                                    lineNumber: 55,
+                                                    columnNumber: 15
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                lineNumber: 53,
+                                                lineNumber: 54,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -109,7 +112,7 @@ function TaxServices() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Service.tsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 59,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -117,24 +120,24 @@ function TaxServices() {
                                                         children: service.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Service.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 60,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 58,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 50,
+                                lineNumber: 51,
                                 columnNumber: 9
                             }, this)
                         ]
@@ -154,7 +157,7 @@ function TaxServices() {
                                         children: "Our Service Benefits"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 70,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -162,13 +165,13 @@ function TaxServices() {
                                         children: "We are more than just a tax lodgment service—we are your trusted financial partner, committed to ensuring accuracy, compliance, and maximum tax savings. Our services are designed to be accessible and affordable, offering the lowest fees while maintaining high standards of expertise and accuracy. We understand that tax-related questions can arise anytime, which is why we provide 24/7 email support, allowing you to reach out whenever you need assistance. Your security is our priority, and we use advanced encryption technology to safeguard your personal and financial data. Additionally, we don’t just process tax returns—we analyze them thoroughly to maximize your deductions and ensure the best possible refund based on your financial situation. With our hassle-free online lodgment, you can submit your tax return quickly and easily, eliminating paperwork, queues, and unnecessary stress."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 71,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 67,
+                                lineNumber: 69,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -179,7 +182,7 @@ function TaxServices() {
                                         children: "Why Choose Us?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 86,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -187,7 +190,7 @@ function TaxServices() {
                                         children: "We provide expert-led tax and financial services designed to simplify the complexities of tax filing and financial planning. Our commitment to accuracy, security, and personalized solutions ensures that you receive the best possible financial outcomes with minimal effort."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 87,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -203,12 +206,12 @@ function TaxServices() {
                                                     className: "rounded-lg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/Service.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 96,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 95,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -223,12 +226,12 @@ function TaxServices() {
                                                                     children: "✓"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/Service.tsx",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 110,
                                                                     columnNumber: 7
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 109,
                                                                 columnNumber: 7
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -236,30 +239,30 @@ function TaxServices() {
                                                                 children: benefit
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 113,
                                                                 columnNumber: 7
                                                             }, this)
                                                         ]
                                                     }, index, true, {
                                                         fileName: "[project]/src/app/components/Service.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 108,
                                                         columnNumber: 5
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Service.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 106,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 93,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 83,
+                                lineNumber: 85,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -269,7 +272,7 @@ function TaxServices() {
                                         children: "What We Do"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 124,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -277,19 +280,19 @@ function TaxServices() {
                                         children: "We specialize in tax return preparation and lodgment for individuals and businesses, making the tax process seamless and stress-free. Our expertise extends beyond tax lodgment—we provide strategic financial advisory services to help businesses optimize capital structures, boost profitability, and ensure long-term growth. We also offer audit and assurance services, ensuring compliance, risk assessment, and financial transparency. Additionally, we assist businesses in capital raising and fundraisings, providing financial strategies that support expansion and sustainability. For companies looking to streamline their financial operations, we offer business process outsourcing, handling bookkeeping, tax compliance, and financial management with precision. With our data-driven approach and expert accountants, we guarantee peace of mind and the best financial outcomes for all our clients."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 125,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 121,
+                                lineNumber: 123,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 65,
+                        lineNumber: 67,
                         columnNumber: 5
                     }, this)
                 ]
@@ -312,20 +315,20 @@ function TaxServices() {
                                 onChange: (e)=>setSearchTerm(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 141,
+                                lineNumber: 143,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
                                 className: "absolute right-3 top-3 text-gray-500 w-5 h-5"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 148,
+                                lineNumber: 150,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 140,
+                        lineNumber: 142,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -333,7 +336,7 @@ function TaxServices() {
                         children: "Our Services"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 152,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -347,14 +350,14 @@ function TaxServices() {
                                         children: service
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 164,
                                         columnNumber: 9
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-black text-[18px] font-semibold",
                                         children: service
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 168,
                                         columnNumber: 9
                                     }, this),
                                     service === "Online Tax Return" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -364,30 +367,30 @@ function TaxServices() {
                                             children: "➜"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Service.tsx",
-                                            lineNumber: 172,
+                                            lineNumber: 174,
                                             columnNumber: 11
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 173,
                                         columnNumber: 9
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-black border-[#FFE1D8] bg-[#FFE1D8] rounded-full px-3 py-2 hover:bg-orange-300",
                                         children: "➜"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 179,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 156,
+                                lineNumber: 158,
                                 columnNumber: 5
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 154,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -398,7 +401,7 @@ function TaxServices() {
                                 children: "If You Need Any Help Contact With Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 187,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -406,13 +409,13 @@ function TaxServices() {
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 188,
+                                lineNumber: 190,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 186,
+                        lineNumber: 188,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -423,7 +426,7 @@ function TaxServices() {
                                 children: "Follow Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 195,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -433,39 +436,39 @@ function TaxServices() {
                                         className: "w-[30px] h-[30px] cursor-pointer hover:text-orange-500 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 197,
+                                        lineNumber: 199,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {
                                         className: "w-[30px] h-[30px] cursor-pointer hover:text-orange-500 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 200,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaFacebookF"], {
                                         className: "w-[30px] h-[30px] cursor-pointer hover:text-orange-500 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Service.tsx",
-                                        lineNumber: 199,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Service.tsx",
-                                lineNumber: 196,
+                                lineNumber: 198,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Service.tsx",
-                        lineNumber: 194,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Service.tsx",
-                lineNumber: 138,
+                lineNumber: 140,
                 columnNumber: 5
             }, this)
         ]
