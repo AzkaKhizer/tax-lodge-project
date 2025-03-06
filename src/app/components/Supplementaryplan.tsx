@@ -18,7 +18,7 @@ const bgColors = [
   "bg-[#CECECE]", "bg-[#B3B3B3]", "bg-[#979797]", "bg-[#888888]"
 ];
 
-const extractBoldPrice = (price:any) => {
+const extractBoldPrice = (price: string) => {
   const match = price.match(/(\$\d+)/); // Extracts "$99", "$199", etc.
   if (!match) return price;
   return (
@@ -28,6 +28,7 @@ const extractBoldPrice = (price:any) => {
     </>
   );
 };
+
 
 const PricingSupplementary = () => {
   return (

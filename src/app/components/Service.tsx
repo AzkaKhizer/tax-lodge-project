@@ -28,7 +28,8 @@ export default function TaxServices() {
       <section className="max-w-5xl mx-auto p-6 md:p-12 bg-white ">
         {/* Image */}
         <div className="overflow-hidden ">
-          <img src="/service.png" alt="Tax Consultation" className="w-full h-auto" />
+        <Image src="/service.png" alt="Tax Consultation" width={500} height={300} className="w-full h-auto" />
+
         </div>
   
         {/* Heading and Description */}
@@ -51,7 +52,8 @@ export default function TaxServices() {
           {services.map((service, index) => (
             <div key={index} className="flex items-start gap-4 p-6 bg-[#F0F0F0] rounded-xl shadow-sm">
               <div className="bg-[#FFE5DD] p-3 rounded-[10px]">
-                <img src={service.icon} alt={service.title} className="w-8 h-8" />
+              <Image src={service.icon} alt={service.title} width={32} height={32} />
+
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{service.title}</h3>
