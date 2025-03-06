@@ -122,74 +122,73 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 function OnlineTax() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: " w-full mb-10 pt-6",
+        className: " w-full md:mb-10 pt-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative h-[400px] rounded-r-[200px]",
+                className: "relative h-[250px] md:h-full sm:w-full sm:min-h-[400px] rounded-r-[200px] overflow-hidden mx-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/onlinetax.png" // Replace with your image path
-                        ,
+                        src: "/onlinetax.png",
                         alt: "Office Background",
                         layout: "fill",
                         objectFit: "cover",
-                        className: "absolute inset-0"
+                        className: "w-full h-full"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/OnlineTax.tsx",
                         lineNumber: 9,
-                        columnNumber: 12
+                        columnNumber: 20
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative flex flex-col justify-center  bg-[#741C0059] rounded-r-[200px] bg-opacity-50 h-full  text-white px-6",
+                        className: "absolute inset-0 flex flex-col justify-center bg-[#741C0059] rounded-r-[200px] bg-opacity-50 text-white px-5 pr-8 sm:px-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl md:text-5xl font-bold text-white w-[750px] leading-relaxed pl-4",
+                                className: "text-[20px] md:text-[60px] font-bold text-white pl-2 sm:pl-4",
                                 children: "Expert Tax Preparation Made Simple. Maximize Your Refund Today!"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/OnlineTax.tsx",
                                 lineNumber: 19,
-                                columnNumber: 12
+                                columnNumber: 22
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "mt-6 px-10 py-4 w-[200px] bg-[#FE5722] text-[18px] text-white font-semibold rounded-full shadow-md hover:bg-orange-600 transition",
+                                className: "mt-4 sm:mt-6 px-6 sm:px-10 py-2 sm:py-4 w-[150px] sm:w-[200px] bg-[#FE5722] text-[14px] sm:text-[18px] text-white font-semibold rounded-full shadow-md hover:bg-orange-600 transition",
                                 children: "GET STARTED"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/OnlineTax.tsx",
                                 lineNumber: 22,
-                                columnNumber: 9
+                                columnNumber: 22
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/OnlineTax.tsx",
                         lineNumber: 18,
-                        columnNumber: 12
+                        columnNumber: 20
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/OnlineTax.tsx",
                 lineNumber: 7,
-                columnNumber: 14
+                columnNumber: 12
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full max-w-4xl mx-auto flex flex-col justify-center items-center  text-center py-6 px-6 mt-3",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl md:text-[44px]  w-[731px] font-semibold  leading-normal  text-black",
+                        className: "text-[32px] md:text-[44px] w-full md:w-[731px] font-semibold  leading-normal  text-black",
                         children: "Get your tax return prepared and lodged by a dedicated IPA Tax Accountant."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/OnlineTax.tsx",
-                        lineNumber: 32,
+                        lineNumber: 31,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-[1100px]",
+                        className: "w-full md:w-[1100px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-4 text-[#1E1E1E] leading-relaxed text-[16px] ",
                                 children: "Our online tax return service is designed to provide a seamless, secure, and expert-driven experience. Unlike DIY or automated systems, our team of certified IPA Tax Accountants personally reviews and prepares your tax return, ensuring accuracy, compliance, and the maximum refund you’re entitled to."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/OnlineTax.tsx",
-                                lineNumber: 38,
+                                lineNumber: 37,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -197,7 +196,7 @@ function OnlineTax() {
                                 children: "Getting started is simple—just complete our easy-to-use questionnaire and upload your tax documents. From there, we take care of everything, handling the complexities while you focus on what matters most."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/OnlineTax.tsx",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -205,13 +204,13 @@ function OnlineTax() {
                                 children: "Every tax return is meticulously prepared by experienced professionals, and our commitment to data security ensures that your sensitive information remains encrypted and protected at all times. Whether you’re a sole trader, partnership, company, or trust, we streamline the process to make tax filing hassle-free and efficient."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/OnlineTax.tsx",
-                                lineNumber: 49,
+                                lineNumber: 48,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/OnlineTax.tsx",
-                        lineNumber: 37,
+                        lineNumber: 36,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -221,18 +220,18 @@ function OnlineTax() {
                             children: "GET TAX RETURN"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/OnlineTax.tsx",
-                            lineNumber: 58,
+                            lineNumber: 57,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/OnlineTax.tsx",
-                        lineNumber: 57,
+                        lineNumber: 56,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/OnlineTax.tsx",
-                lineNumber: 30,
+                lineNumber: 29,
                 columnNumber: 9
             }, this)
         ]
@@ -298,7 +297,7 @@ const TaxLodgeProcess = ()=>{
         className: "flex flex-col justify-center md:justify-evenly items-center max-w-5xl mx-auto py-10 px-4 mt-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-[44px] font-bold text-center",
+                className: "text-[28px] md:text-[44px] font-bold text-center",
                 children: "How Tax Lodge Online Works"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/taxlodge.tsx",
@@ -425,7 +424,7 @@ function OnlineTaxReturn() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: " flex justify-center items-center text-center mt-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-[44px] font-semibold  mb-6 w-[731px] ",
+                    className: " text-[32px] md:text-[44px] font-semibold  mb-6 w-[731px] ",
                     children: "Lodge Your Online Tax Return with assistance of a Tax Accountant"
                 }, void 0, false, {
                     fileName: "[project]/src/app/OnlineTaxReturn/page.tsx",

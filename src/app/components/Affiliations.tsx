@@ -5,7 +5,7 @@ import ClientTestimonials from './Testimonial';
 const Affiliations = () => {
   return (
     <div className='mb-28 '>
-      <h1 className='font-bold text-[44px] text-center mt-10'>
+      <h1 className='font-bold text-[28px] md:text-[44px] text-center mt-10'>
         Our Professional Affiliations
       </h1>
       <div className='flex justify-center items-center gap-2 md:gap-16 mb-10'>
@@ -106,14 +106,14 @@ const Affiliations = () => {
             <h2 className='text-[20px]'>Lodge Your Tax Return with Convenience</h2>
           </div>
           <div className='bg-white w-[257px] h-[204px] p-4 flex flex-col'>
-            <p className='text-[12px]'>
+            <p className='text-[12px] mt-2'>
               &ldquo;At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.&rdquo;
             </p>
             <div className='flex mt-6'>
-              <Image src='/image5.png' alt='girl' width={42} height={42} />
-              <div className='flex flex-col ml-2'>
-                <p className='font-semibold text-[#A19C9C]'>Meredith Fay</p>
-                <p className='text-sm text-[#A19C9C]'>Accounts Expert</p>
+              <Image src='/image5.png' alt='girl' width={42} height={42} className='w-[42px] h-[42px] mt-4' />
+              <div className='flex flex-col ml-2 mt-4'>
+                <p className='font-semibold text-[#A19C9C] text-[12px]'>Meredith Fay</p>
+                <p className='text-[12px] text-[#A19C9C]'>Accounts Expert</p>
               </div>
             </div>
           </div>
@@ -125,15 +125,15 @@ const Affiliations = () => {
           <div className='bg-[#FFE0B2] text-black p-4 w-[172px] h-[204px] flex justify-center items-center shadow-lg'>
             <h2 className='text-[20px]'>We Value Ownership</h2>
           </div>
-          <div className='bg-white w-[257px] h-[204px] p-2 flex flex-col'>
-            <p className='text-[12px]'>
+          <div className='bg-white w-[257px] h-[204px] p-2 flex flex-col '>
+            <p className='text-[12px] mt-4'>
               &ldquo;Our expert accountants ensure you get the maximum refund possible while staying fully compliant.&rdquo;
             </p>
             <div className='flex mt-6'>
               <Image src='/image1.png' alt='man' width={42} height={42} className='w-[42px] h-[42px] mt-4'  />
-              <div className='flex flex-col ml-1'>
-                <p className='font-semibold text-[#A19C9C]'>Murtaza Ali Haider</p>
-                <p className='text-sm text-[#A19C9C]'>Principal Accountant</p>
+              <div className='flex flex-col ml-1 mt-4'>
+                <p className='font-semibold text-[#A19C9C] text-[12px] '>Murtaza Ali Haider</p>
+                <p className='text-[12px] text-[#A19C9C]'>Principal Accountant</p>
               </div>
             </div>
           </div>

@@ -27,8 +27,8 @@ const ClientTestimonials = () => {
   const nextRef = useRef(null);
 
   return (
-    <section className="flex flex-col items-center py-8 mt-14">
-      <h2 className="text-2xl md:text-3xl font-bold mb-6">Client Testimonials</h2>
+    <section className="flex flex-col items-center py-4 md:py-8 md:mt-14">
+      <h2 className="text-[28px] md:text-[44px] font-bold mb-6">Client Testimonials</h2>
       <div className="relative w-full max-w-lg shadow-lg">
         <Swiper
           modules={[Navigation]}

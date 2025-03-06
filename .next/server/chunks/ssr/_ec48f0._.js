@@ -113,7 +113,7 @@ const Hero = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col justify-center items-center text-center px-6 mt-5",
+                    className: "flex flex-col justify-center items-center text-center px-6 mt-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-[40px] mt-24 font-bold",
@@ -405,7 +405,7 @@ const TaxLodgeProcess = ()=>{
         className: "flex flex-col justify-center md:justify-evenly items-center max-w-5xl mx-auto py-10 px-4 mt-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-[44px] font-bold text-center",
+                className: "text-[28px] md:text-[44px] font-bold text-center",
                 children: "How Tax Lodge Online Works"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/taxlodge.tsx",
@@ -741,7 +741,7 @@ const Affiliations = ()=>{
         className: "mb-28 ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "font-bold text-[44px] text-center mt-10",
+                className: "font-bold text-[28px] md:text-[44px] text-center mt-10",
                 children: "Our Professional Affiliations"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1192,7 +1192,7 @@ const Affiliations = ()=>{
                                 className: "bg-white w-[257px] h-[204px] p-4 flex flex-col",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[12px]",
+                                        className: "text-[12px] mt-2",
                                         children: "“At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.”"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1206,17 +1206,18 @@ const Affiliations = ()=>{
                                                 src: "/image5.png",
                                                 alt: "girl",
                                                 width: 42,
-                                                height: 42
+                                                height: 42,
+                                                className: "w-[42px] h-[42px] mt-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Affiliations.tsx",
                                                 lineNumber: 113,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col ml-2",
+                                                className: "flex flex-col ml-2 mt-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "font-semibold text-[#A19C9C]",
+                                                        className: "font-semibold text-[#A19C9C] text-[12px]",
                                                         children: "Meredith Fay"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1224,7 +1225,7 @@ const Affiliations = ()=>{
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-sm text-[#A19C9C]",
+                                                        className: "text-[12px] text-[#A19C9C]",
                                                         children: "Accounts Expert"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1276,10 +1277,10 @@ const Affiliations = ()=>{
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white w-[257px] h-[204px] p-2 flex flex-col",
+                                    className: "bg-white w-[257px] h-[204px] p-2 flex flex-col ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-[12px]",
+                                            className: "text-[12px] mt-4",
                                             children: "“Our expert accountants ensure you get the maximum refund possible while staying fully compliant.”"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1301,10 +1302,10 @@ const Affiliations = ()=>{
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex flex-col ml-1",
+                                                    className: "flex flex-col ml-1 mt-4",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold text-[#A19C9C]",
+                                                            className: "font-semibold text-[#A19C9C] text-[12px] ",
                                                             children: "Murtaza Ali Haider"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",
@@ -1312,7 +1313,7 @@ const Affiliations = ()=>{
                                                             columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-[#A19C9C]",
+                                                            className: "text-[12px] text-[#A19C9C]",
                                                             children: "Principal Accountant"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",

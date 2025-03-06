@@ -54,7 +54,7 @@ const Hero = () => {
 
       {/* Mobile View */}
       <div className="block md:hidden bg-white">
-        <div className="flex flex-col justify-center items-center text-center px-6 mt-5">
+        <div className="flex flex-col justify-center items-center text-center px-6 mt-6">
           <h2 className="text-[40px] mt-24 font-bold">
             Welcome To <span className="text-[#FE5722]">Tax Lodge Online</span>
           </h2>
