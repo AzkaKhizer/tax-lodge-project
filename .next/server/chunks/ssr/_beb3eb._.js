@@ -163,7 +163,7 @@ const WelcomeSection = ()=>{
                 className: "w-full md:w-1/2    mt-6 md:mt-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-[50px] text-[#1E1E1E] font-bold mb-2 w-[900px]",
+                        className: "text-[25px] md:text-[50px] text-[#1E1E1E] font-bold mb-2 w-[900px]",
                         children: "Welcome To Pay Calculator"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",
@@ -171,7 +171,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[#1E1E1E] text-[16px] mb-2",
+                        className: "text-[#1E1E1E] text-[12px] md:text-[16px] mb-2",
                         children: "Easily calculate your net income after factoring in tax withheld, superannuation entitlement, HELP debt (if applicable), Medicare levy, and any tax offset entitlement using the tool below."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",
@@ -179,7 +179,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "space-y-2 text-gray-700",
+                        className: "space-y-2 text-gray-700 text-[12px] md:text-[16px]",
                         children: [
                             "Enter your gross income (before tax) in the '$' box.",
                             "Select the relevant income period (weekly, monthly, yearly).",
@@ -208,7 +208,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-2 text-[#1E1E1E] text-[16px]",
+                        className: "mt-2 text-[#1E1E1E] text-[12px] md:text-[16px]",
                         children: "The calculator will provide you with an estimate of your net income, which represents the amount you will receive after accounting for all the deductions mentioned above."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",
@@ -250,7 +250,7 @@ function TaxReturnSection() {
             className: "bg-black bg-opacity-50 p-8 rounded-xl text-center flex justify-center items-center flex-col w-full mx-auto py-16 px-6 md:px-12",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-2xl md:text-[35px] font-semibold",
+                    className: "text-[14px] md:text-[35px] font-semibold",
                     children: [
                         "Lodge your personal tax return conveniently by clicking",
                         " ",
@@ -269,7 +269,7 @@ function TaxReturnSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "mt-6 bg-orange-500 hover:bg-orange-600 text-[18px] text-white font-bold py-4 px-10 rounded-full shadow-md transition",
+                    className: "mt-6 bg-orange-500 hover:bg-orange-600 text-[14px] md:text-[18px] text-white font-bold py-2 px-6 md:py-4 md:px-10 rounded-full shadow-md transition",
                     children: "GET STARTED"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/GetStarted.tsx",
@@ -277,7 +277,7 @@ function TaxReturnSection() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-4 text-[25px] w-[1110px] text-center",
+                    className: "mt-4 text-[12px] md:text-[25px] md:w-[1110px] text-center",
                     children: "Our platform is easy-to-use and tax returns will be reviewed and lodged by our qualified tax professionals. We guarantee maximum tax refund."
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/GetStarted.tsx",

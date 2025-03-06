@@ -72,14 +72,17 @@ export default function PayCalculator() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white mb-[60px] pb-[60px]">
-      <div className="shadow-lg shadow-[#FF8B661F] bg-[#F8F8F8] w-[1216px] h-[844px] rounded-xl p-8 border border-gray-200 flex justify-between items-center">
-        <div className="flex flex-col items-center justify-center pr-6 w-[340px] h-[425px]">
-          <Image src="/taxpic.png" alt="Tax Image" width={340} height={424} />
+    <div className="flex flex-col items-center justify-center bg-white mb-[60px] pb-[60px] mx-2 md:mx-0">
+      <div className="shadow-lg shadow-[#FF8B661F] bg-[#F8F8F8] w-full h-full md:w-[1216px] md:h-[844px] rounded-xl p-2 md:p-8 border border-gray-200 flex justify-between items-center">
+        <div className="hidden md:block">
+        <div className="flex flex-col items-center justify-center md:pr-6 w-full h-full md:w-[340px] md:h-[425px]  ">
+          <Image src="/taxpic.png" alt="Tax Image" width={340} height={424}  />
         </div>
-        <div className="w-px h-[425px] bg-[#A19C9C] mx-6 shadow-md shadow-gray-400"></div>
+
+        <div className="w-px h-[425px] bg-[#A19C9C] md:mx-6 shadow-md shadow-gray-400 "></div>
+        </div>
         <div className="flex-1">
-          <h1 className="text-xl font-semibold text-[#A19C9C]">Gross Income (Before Tax)</h1>
+          <h1 className="text-[14px] md:text-[20px] font-semibold text-[#A19C9C]">Gross Income (Before Tax)</h1>
           <input
             type="number"
             value={income}
@@ -93,7 +96,7 @@ export default function PayCalculator() {
               <button
                 key={p}
                 onClick={() => setPeriod(p as "annually" | "monthly" | "fortnightly" | "weekly")}
-                className={`px-4 py-2 text-sm font-semibold rounded-[50px] transition-all ${
+                className={` px-2 py-2 md:px-4 md:py-2 text-[10px] md:text-[16px] font-semibold rounded-[50px] transition-all ${
                   period === p ? "hover:text-orange-600 border rounded-[50px] shadow-inner text-orange-600" : "text-[#A19C9C] hover:text-orange-500"
                 }`}
               >
@@ -110,8 +113,8 @@ export default function PayCalculator() {
             ].map(({ label, state, setState }) => (
               <div key={label} className="flex justify-between items-center">
                 <span className="text-[#939393] font-medium">{label}</span>
-                <div className="flex space-x-2">
-                  <div className="bg-[#F8F8F8] flex justify-between px-6 items-center w-[198px] h-[64px] border shadow-lg rounded-[50px]">
+                <div className="flex md:space-x-2">
+                  <div className="bg-[#F8F8F8] flex justify-between md:px-6 items-center w-full h-full md:w-[198px] md:h-[64px] border shadow-lg rounded-[50px]">
                     <button
                       onClick={() => setState(true)}
                       className={`px-5 py-2 rounded-[50px] transition-all hover:text-orange-500 hover:text-lg hover:shadow-inner ${
@@ -135,7 +138,7 @@ export default function PayCalculator() {
           </div>
 
           <div className="flex justify-end">
-            <button onClick={calculateTax} className="mt-6 bg-orange-600 text-white py-3 rounded-[50px] w-[198px] h-[64px] text-lg font-semibold shadow-md hover:bg-orange-500">
+            <button onClick={calculateTax} className="mt-6 bg-orange-600 text-white py-3 rounded-[50px] w-full h-full md:w-[198px] md:h-[64px] text-lg font-semibold shadow-md hover:bg-orange-500">
               CALCULATE
             </button>
           </div>
@@ -144,23 +147,23 @@ export default function PayCalculator() {
 
       {/* Results */}
       {result && (
-        <div ref={resultRef} className="mt-6 p-4 bg-white rounded-xl w-[1216px]">
+        <div ref={resultRef} className="mt-6  md:p-4 bg-white rounded-xl w-full md:w-[1216px]">
           <table className="w-full border-collapse border mt-2 shadow-lg rounded-xl">
             <thead>
-              <tr className="bg-white text-[#7C7C7C] text-[20px] shadow-lg rounded-xl">
-                <th className="p-6">YEAR</th>
-                <th className="p-6">ANNUALLY</th>
-                <th className="p-6">MONTHLY</th>
-                <th className="p-6">FORTNIGHTLY</th>
-                <th className="p-6">WEEKLY</th>
+              <tr className="bg-white text-[#7C7C7C] text-[9px] md:text-[20px] shadow-lg rounded-xl">
+                <th className="p-2 md:p-6">YEAR</th>
+                <th className="p-2 md:p-6">ANNUALLY</th>
+                <th className="p-2 md:p-6">MONTHLY</th>
+                <th className="p-2 md:p-6">FORTNIGHTLY</th>
+                <th className="p-2 md:p-6">WEEKLY</th>
               </tr>
             </thead>
             <tbody>
               {Object.entries(result).map(([key, value]) => (
                 <tr key={key} className={key === "netIncome" ? "bg-[#FF8B662E]" : ""}>
-                  <td className="border p-2 capitalize text-[#7C7C7C] text-[20px]">{key.replace(/([A-Z])/g, " $1").trim()}</td>
+                  <td className="border p-1 md:p-2 capitalize text-[#7C7C7C] text-[10px] md:text-[20px]">{key.replace(/([A-Z])/g, " $1").trim()}</td>
                   {[1, 12, 26, 52].map((divider, i) => (
-                    <td key={i} className="border p-6 text-[#7C7C7C] text-[20px]">${(value / divider).toFixed(2)}</td>
+                    <td key={i} className="border p-2 md:p-6 text-[#7C7C7C] text-[10px] md:text-[20px]">${(value / divider).toFixed(2)}</td>
                   ))}
                 </tr>
               ))}

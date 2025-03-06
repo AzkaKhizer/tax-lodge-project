@@ -16,14 +16,14 @@ const WelcomeSection = () => {
 
       {/* Right - Content */}
       <div className="w-full md:w-1/2    mt-6 md:mt-0">
-        <h1 className="text-[50px] text-[#1E1E1E] font-bold mb-2 w-[900px]">Welcome To Pay Calculator</h1>
-        <p className="text-[#1E1E1E] text-[16px] mb-2">
+        <h1 className="text-[25px] md:text-[50px] text-[#1E1E1E] font-bold mb-2 w-[900px]">Welcome To Pay Calculator</h1>
+        <p className="text-[#1E1E1E] text-[12px] md:text-[16px] mb-2">
           Easily calculate your net income after factoring in tax withheld, 
           superannuation entitlement, HELP debt (if applicable), Medicare levy, 
           and any tax offset entitlement using the tool below.
         </p>
 
-        <ul className="space-y-2 text-gray-700">
+        <ul className="space-y-2 text-gray-700 text-[12px] md:text-[16px]">
           {[
             "Enter your gross income (before tax) in the '$' box.",
             "Select the relevant income period (weekly, monthly, yearly).",
@@ -39,7 +39,7 @@ const WelcomeSection = () => {
           ))}
         </ul>
 
-        <p className="mt-2 text-[#1E1E1E] text-[16px]">
+        <p className="mt-2 text-[#1E1E1E] text-[12px] md:text-[16px]">
         The calculator will provide you with an estimate of your net income, which represents the amount you will receive after accounting for all the deductions mentioned above.
         </p>
       </div>
