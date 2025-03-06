@@ -214,7 +214,7 @@ const About = ()=>{
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-center items-center md:justify-end p-3 md:p-4 md:mr-32 mt-8 md:mt-16",
+                className: "flex justify-center items-center md:justify-end p-2 md:p-4 md:mr-32 mt-8 md:mt-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col justify-start items-start",
                     children: [
@@ -227,7 +227,7 @@ const About = ()=>{
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-[28px]  md:text-[44px] md:w-[320px] font-bold pr-8 md:pr-0",
+                            className: "text-[28px]  md:text-[44px] md:w-[320px] font-bold ",
                             children: "Empowering Individuals & Businesses with Expert Tax Solutions"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/About.tsx",
@@ -235,7 +235,7 @@ const About = ()=>{
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-[16px] md:w-[360px] mt-4 pr-8 md:pr-0 ",
+                            className: "text-[16px] md:w-[360px] mt-4 ",
                             children: "Our registered tax practitioners carefully review your submission for accuracy, compliance, and potential tax savings. Once verified, we lodge your tax return with the Australian Taxation Office (ATO) on your behalf."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/About.tsx",
@@ -243,7 +243,7 @@ const About = ()=>{
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-[#EDF5FF] md:bg-[#FFAB914D] w-[340px] md:w-[376px] h-[220px]  flex mt-4 rounded-[10px] ",
+                            className: "bg-[#EDF5FF] md:bg-[#FFAB914D] w-full md:w-[376px] h-[220px]  flex mt-3 md:mt-4 rounded-[10px] ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-7 ml-7 relative",
@@ -276,7 +276,7 @@ const About = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col  ml-4 mt-5 mb-5 ",
+                                    className: "flex flex-col  ml-6 mt-3 md:mt-5 mb-5 ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-[20px] font-semibold mb-2",
