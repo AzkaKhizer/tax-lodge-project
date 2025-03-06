@@ -39,11 +39,14 @@ const ClientTestimonials = () => {
             nextEl: nextRef.current,
           }}
           onInit={(swiper) => {
-            swiper.params.navigation.prevEl = prevRef.current;
-            swiper.params.navigation.nextEl = nextRef.current;
-            swiper.navigation.init();
-            swiper.navigation.update();
+            if (swiper.params.navigation && typeof swiper.params.navigation === "object") {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }
           }}
+          
           loop={true}
           className="p-6"
         >
