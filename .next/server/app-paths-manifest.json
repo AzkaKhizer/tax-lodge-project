@@ -1,4 +1,12 @@
 {
   "/ContactUs/page": "app/ContactUs/page.js",
-  "/api/contact/route": "app/api/contact/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/BusinessTax/page": "app/BusinessTax/page.js",
+  "/PricingPage/page": "app/PricingPage/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/Calculator/page": "app/Calculator/page.js",
+  "/ServiceDetails/page": "app/ServiceDetails/page.js",
+  "/OnlineTaxReturn/page": "app/OnlineTaxReturn/page.js",
+  "/page": "app/page.js"
 }

@@ -15,6 +15,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ message: "Form submitted successfully!" }, { status: 200 });
   } catch (error) {
+    console.error("❌ Error processing form submission:", error); // ✅ Fix: Log the error
     return NextResponse.json({ message: "Internal server error." }, { status: 500 });
   }
 }

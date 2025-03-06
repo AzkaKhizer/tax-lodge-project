@@ -20,7 +20,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 const ContactForm = ()=>{
     _s();
-    const { register, handleSubmit, formState: { errors }, reset } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useForm"])();
+    const { register, handleSubmit, formState: { errors }, reset } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useForm"])(); // ✅ Fix: Type-safe form inputs
     const [status, setStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const onSubmit = async (data)=>{
         setStatus("Submitting...");
@@ -34,12 +34,12 @@ const ContactForm = ()=>{
             });
             if (response.ok) {
                 setStatus("✅ Message sent successfully!");
-                reset();
+                reset(); // Clear form
             } else {
                 setStatus("❌ Error sending message. Try again.");
             }
         } catch (error) {
-            console.error("Error submitting form:", error);
+            console.error("❌ Network error:", error);
             setStatus("⚠️ Network error. Try again.");
         }
     };
@@ -56,12 +56,12 @@ const ContactForm = ()=>{
                     className: "rounded-lg shadow-lg md:h-[600px]"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/ContactForm.tsx",
-                    lineNumber: 44,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                lineNumber: 43,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -72,23 +72,23 @@ const ContactForm = ()=>{
                         children: "CONTACT US"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                        lineNumber: 48,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-[32px] md:text-[44px] font-bold mt-1 md:w-[578px]",
-                        children: "Let’s Talk About Your Taxes"
+                        children: "Let's Talk About Your Taxes"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                        lineNumber: 51,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-600 mt-2 text-sm",
-                        children: "Your success starts with a conversation! We believe informed decisions lead to better financial outcomes."
+                        children: "Your success starts with a conversation! We believe informed decisions lead to better financial outcomes. Our team is here to guide you through tax lodgment, accounting, and business advisory with clarity and confidence."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                        lineNumber: 52,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -107,7 +107,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, this),
                                     errors.firstName && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -115,13 +115,13 @@ const ContactForm = ()=>{
                                         children: "First name is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 75,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 57,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -136,7 +136,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this),
                                     errors.lastName && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -144,13 +144,13 @@ const ContactForm = ()=>{
                                         children: "Last name is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 80,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 62,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -166,7 +166,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this),
                                     errors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -174,13 +174,13 @@ const ContactForm = ()=>{
                                         children: "Valid email is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 85,
                                         columnNumber: 30
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 67,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -195,7 +195,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 89,
                                         columnNumber: 13
                                     }, this),
                                     errors.phone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -203,13 +203,13 @@ const ContactForm = ()=>{
                                         children: "Phone number is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 90,
                                         columnNumber: 30
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 72,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -224,7 +224,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this),
                                     errors.subject && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -232,13 +232,13 @@ const ContactForm = ()=>{
                                         children: "Subject is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 95,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 77,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -253,7 +253,7 @@ const ContactForm = ()=>{
                                         className: "border p-3 rounded-[10px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this),
                                     errors.message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -261,13 +261,13 @@ const ContactForm = ()=>{
                                         children: "Message is required."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 100,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 82,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -276,13 +276,13 @@ const ContactForm = ()=>{
                                 children: "SEND NOW"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                                lineNumber: 87,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                        lineNumber: 56,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     status && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -290,23 +290,23 @@ const ContactForm = ()=>{
                         children: status
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/ContactForm.tsx",
-                        lineNumber: 92,
+                        lineNumber: 109,
                         columnNumber: 20
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/ContactForm.tsx",
-                lineNumber: 47,
+                lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/ContactForm.tsx",
-        lineNumber: 42,
+        lineNumber: 48,
         columnNumber: 5
     }, this);
 };
-_s(ContactForm, "tfyhb4I+JUKu7dh1/iZo66YeYpE=", false, function() {
+_s(ContactForm, "Ccrh8aMVahMXsztONU5myESofns=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useForm"]
     ];

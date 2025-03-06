@@ -247,10 +247,10 @@ function TaxReturnSection() {
             backgroundImage: "url('/calcbg.png')"
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-black bg-opacity-50 p-8 rounded-xl text-center flex justify-center items-center flex-col w-full mx-auto  py-16 px-6 md:px-12",
+            className: "bg-black bg-opacity-50 p-8 rounded-xl text-center flex justify-center items-center flex-col w-full mx-auto py-16 px-6 md:px-12",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-2xl md:text-[35px] font-semibold ",
+                    className: "text-2xl md:text-[35px] font-semibold",
                     children: [
                         "Lodge your personal tax return conveniently by clicking",
                         " ",
@@ -260,13 +260,13 @@ function TaxReturnSection() {
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/GetStarted.tsx",
                             lineNumber: 8,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/GetStarted.tsx",
                     lineNumber: 6,
-                    columnNumber: 11
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     className: "mt-6 bg-orange-500 hover:bg-orange-600 text-[18px] text-white font-bold py-4 px-10 rounded-full shadow-md transition",
@@ -274,26 +274,26 @@ function TaxReturnSection() {
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/GetStarted.tsx",
                     lineNumber: 10,
-                    columnNumber: 11
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-4 text-[25px]  w-[1110px] text-center",
-                    children: "Our platform is easy-to-use and tax returns will be reviewed and lodged by our qualified tax professionals.We guarantee maximum tax refund."
+                    className: "mt-4 text-[25px] w-[1110px] text-center",
+                    children: "Our platform is easy-to-use and tax returns will be reviewed and lodged by our qualified tax professionals. We guarantee maximum tax refund."
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/GetStarted.tsx",
                     lineNumber: 13,
-                    columnNumber: 11
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/GetStarted.tsx",
             lineNumber: 5,
-            columnNumber: 9
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/GetStarted.tsx",
         lineNumber: 3,
-        columnNumber: 7
+        columnNumber: 5
     }, this);
 }
 }}),
