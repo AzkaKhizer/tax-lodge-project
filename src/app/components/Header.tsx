@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import PricingPage from "../PricingPage/page";
 import { Search, Menu, X } from "lucide-react";
 
 const Header = () => {

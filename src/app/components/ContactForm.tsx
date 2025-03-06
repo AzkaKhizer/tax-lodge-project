@@ -3,17 +3,20 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
 
-const ContactForm = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm();
+type FormData = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+};
 
+const ContactForm = () => {
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
   const [status, setStatus] = useState("");
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: FormData) => {
     setStatus("Submitting...");
 
     try {
@@ -25,36 +28,29 @@ const ContactForm = () => {
 
       if (response.ok) {
         setStatus("✅ Message sent successfully!");
-        reset(); // Clear form
+        reset();
       } else {
         setStatus("❌ Error sending message. Try again.");
       }
     } catch (error) {
+      console.error("Error submitting form:", error);
       setStatus("⚠️ Network error. Try again.");
     }
   };
 
   return (
     <section className="max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row items-center gap-10 mt-4">
-      {/* Left - Map */}
       <div className="lg:w-1/2 w-full flex justify-center">
-        <Image
-          src="/map1.png"
-          alt="Map"
-          width={517}
-          height={600}
-          className="rounded-lg shadow-lg md:h-[600px]"
-        />
+        <Image src="/map1.png" alt="Map" width={517} height={600} className="rounded-lg shadow-lg md:h-[600px]" />
       </div>
 
-      {/* Right - Form */}
-      <div className="lg:w-1/2 w-full ">
-        <button className="bg-[#FF8B66] text-white px-4 py-2 rounded-[10px] font-semibold ">
+      <div className="lg:w-1/2 w-full">
+        <button className="bg-[#FF8B66] text-white px-4 py-2 rounded-[10px] font-semibold">
           CONTACT US
         </button>
         <h2 className="text-[32px] md:text-[44px] font-bold mt-1 md:w-[578px]">Let’s Talk About Your Taxes</h2>
         <p className="text-gray-600 mt-2 text-sm">
-        Your success starts with a conversation! We believe informed decisions lead to better financial outcomes. Our team is here to guide you through tax lodgment, accounting, and business advisory with clarity and confidence.
+          Your success starts with a conversation! We believe informed decisions lead to better financial outcomes.
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -68,12 +64,12 @@ const ContactForm = () => {
             {errors.lastName && <p className="text-red-500 text-xs">Last name is required.</p>}
           </div>
 
-          <div className="flex flex-col col-span-1 ">
+          <div className="flex flex-col col-span-1">
             <input {...register("email", { required: true, pattern: /^\S+@\S+$/i })} type="email" placeholder="Email Address *" className="border p-3 rounded-[10px] w-full" />
             {errors.email && <p className="text-red-500 text-xs">Valid email is required.</p>}
           </div>
 
-          <div className="flex flex-col col-span-1 ">
+          <div className="flex flex-col col-span-1">
             <input {...register("phone", { required: true })} type="text" placeholder="Phone Number *" className="border p-3 rounded-[10px] w-full" />
             {errors.phone && <p className="text-red-500 text-xs">Phone number is required.</p>}
           </div>
@@ -88,12 +84,11 @@ const ContactForm = () => {
             {errors.message && <p className="text-red-500 text-xs">Message is required.</p>}
           </div>
 
-          <button type="submit" className="bg-[#FF8B66] text-white px-2 py-3 rounded-[10px] font-semibold col-span-1  hover:bg-orange-500">
+          <button type="submit" className="bg-[#FF8B66] text-white px-2 py-3 rounded-[10px] font-semibold col-span-1 hover:bg-orange-500">
             SEND NOW
           </button>
         </form>
 
-        {/* Status Message */}
         {status && <p className="mt-2 text-sm text-gray-700">{status}</p>}
       </div>
     </section>
