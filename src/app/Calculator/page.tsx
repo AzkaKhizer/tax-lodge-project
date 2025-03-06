@@ -5,7 +5,7 @@ import TaxReturnSection from "../components/GetStarted";
 
 export default function Home() {
   return (
-    <main className=" pt-28 max-w-screen-2xl mx-auto overflow-x-hidden">
+    <main className=" pt-28  mx-auto overflow-x-hidden">
         <div>
         <BreadcrumbCalc/>
         <WelcomeSection/>

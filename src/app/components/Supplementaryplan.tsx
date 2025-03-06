@@ -32,7 +32,7 @@ const extractBoldPrice = (price: string) => {
 
 const PricingSupplementary = () => {
   return (
-    <section className="py-10 bg-white">
+    <section className="py-10 bg-white ">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <h2 className="text-[32px] md:text-[44px] font-bold text-center mb-10 mt-10">Individual Supplementary</h2>

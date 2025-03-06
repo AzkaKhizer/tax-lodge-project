@@ -72,16 +72,16 @@ export default function PayCalculator() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white mb-[60px] pb-[60px] mx-2 md:mx-0">
+    <div className="flex flex-col items-center justify-center bg-white mb-[60px] pb-[60px] mx-2 md:mx-0 ">
       <div className="shadow-lg shadow-[#FF8B661F] bg-[#F8F8F8] w-full h-full md:w-[1216px] md:h-[844px] rounded-xl p-2 md:p-8 border border-gray-200 flex justify-between items-center">
-        <div className="hidden md:block">
+        
         <div className="flex flex-col items-center justify-center md:pr-6 w-full h-full md:w-[340px] md:h-[425px]  ">
-          <Image src="/taxpic.png" alt="Tax Image" width={340} height={424}  />
+          <Image src="/taxpic.png" alt="Tax Image" width={340} height={424} className="hidden md:block"  />
         </div>
 
-        <div className="w-px h-[425px] bg-[#A19C9C] md:mx-6 shadow-md shadow-gray-400 "></div>
-        </div>
-        <div className="flex-1">
+        <div className="w-px h-[425px] bg-[#A19C9C] md:mx-6 shadow-md shadow-gray-400 hidden md:block"></div>
+        
+        <div className="flex-1 pr-4 md:pr-0">
           <h1 className="text-[14px] md:text-[20px] font-semibold text-[#A19C9C]">Gross Income (Before Tax)</h1>
           <input
             type="number"

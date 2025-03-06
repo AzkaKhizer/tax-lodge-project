@@ -7,7 +7,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className="mt-28">
+    <div className="mt-28  mx-auto overflow-x-hidden">
         <BreadcrumbContact/>
         <ContactForm/>
         <ContactInfo/>

@@ -5,7 +5,7 @@ import ClientTestimonials from './Testimonial';
 const Affiliations = () => {
   return (
     <div className='mb-28 '>
-      <h1 className='font-bold text-[28px] md:text-[44px] text-center mt-10'>
+      <h1 className='font-bold text-[28px] md:text-[44px] text-center mt-10 p-2'>
         Our Professional Affiliations
       </h1>
       <div className='flex justify-center items-center gap-2 md:gap-16 mb-10'>
@@ -109,9 +109,9 @@ const Affiliations = () => {
             <p className='text-[12px] mt-2'>
               &ldquo;At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.&rdquo;
             </p>
-            <div className='flex mt-6'>
+            <div className='flex mt-3'>
               <Image src='/image5.png' alt='girl' width={42} height={42} className='w-[42px] h-[42px] mt-4' />
-              <div className='flex flex-col ml-2 mt-4'>
+              <div className='flex flex-col ml-1 mt-5'>
                 <p className='font-semibold text-[#A19C9C] text-[12px]'>Meredith Fay</p>
                 <p className='text-[12px] text-[#A19C9C]'>Accounts Expert</p>
               </div>

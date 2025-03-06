@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WelcomeSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:mx-5 md:pl-20 md:mr-20 py-12">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6  md:pl-20 md:mr-20 py-12">
       {/* Left - Image */}
       <div className="relative w-full   ">
         <Image
@@ -10,7 +10,7 @@ const WelcomeSection = () => {
           alt="Using a calculator"
           width={500}
           height={333}
-          className="rounded-[20px] shadow-md"
+          className="rounded-[20px] shadow-md md:w-[500px] "
         />
       </div>
 

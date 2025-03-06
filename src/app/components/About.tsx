@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className='flex  md:justify-evenly items-center md:ml-20'>
+    <div className='flex  md:justify-evenly items-center md:ml-20 '>
         <div className='relative hidden md:block'>
         <Image src="/teamwork.png" alt="pic" width={674} height={389} className='mt-52'/>
         <Image src="/Group.png" alt="pic" width={204} height={167} className='absolute bottom-[-80px] left-[-70px] '/>

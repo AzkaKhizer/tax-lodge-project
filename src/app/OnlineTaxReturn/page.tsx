@@ -6,7 +6,7 @@ import TaxRefundSection from "../components/TaxPic";
 
 export default function OnlineTaxReturn() {
     return (
-      <div className=" mt-28">
+      <div className=" mt-28 mx-auto overflow-x-hidden">
        
         <BreadcrumbTaxReturn/>
         <div className=" flex justify-center items-center text-center mt-10">

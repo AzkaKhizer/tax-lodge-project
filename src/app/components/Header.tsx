@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white md:bg-[#F2F2F2] absolute inset-x-0 top-0 z-50 px-2 py-8 pr-12 md:pr-10  md:px-6 md:py-7 max-w-screen-2xl mx-auto overflow-x-hidden ">
+    <header className="bg-white md:bg-[#F2F2F2] absolute inset-x-0 top-0 z-50 px-2 py-8 pr-12 md:pr-10  md:px-6 md:py-7  mx-auto overflow-x-hidden ">
       <div className="flex justify-between md:justify-between items-center">
         {/* Logo */}
         <Link href="/">
@@ -16,14 +16,14 @@ const Header = () => {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 ">
-          <Link href="/" className="text-black hover:text-[#FE5722] ">Home</Link>
-          <Link href="/ServiceDetails" className="text-black hover:text-[#FE5722]">Services</Link>
-          <Link href="/BusinessTax" className="text-black hover:text-[#FE5722]">Business Tax</Link>
-          <Link href="/blog" className="text-black hover:text-[#FE5722]">Blog</Link>
-          <Link href="/PricingPage" className="text-black hover:text-[#FE5722]">Pricing</Link>
-          <Link href="/Calculator" className="text-black hover:text-[#FE5722]">Pay Calculator</Link>
-          <Link href="/ContactUs" className="text-black hover:text-[#FE5722]">Contact</Link>
+        <nav className="hidden md:flex space-x-6 lg:space-x-10">
+          <Link href="/" className="text-black hover:text-[#FE5722] lg:text-lg ">Home</Link>
+          <Link href="/ServiceDetails" className="text-black hover:text-[#FE5722] lg:text-lg">Services</Link>
+          <Link href="/BusinessTax" className="text-black hover:text-[#FE5722] lg:text-lg">Business Tax</Link>
+          <Link href="/blog" className="text-black hover:text-[#FE5722] lg:text-lg">Blog</Link>
+          <Link href="/PricingPage" className="text-black hover:text-[#FE5722] lg:text-lg">Pricing</Link>
+          <Link href="/Calculator" className="text-black hover:text-[#FE5722] lg:text-lg">Pay Calculator</Link>
+          <Link href="/ContactUs" className="text-black hover:text-[#FE5722] lg:text-lg">Contact</Link>
         </nav>
 
         {/* Search & CTA Button */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function OnlineTax() {
   return (
     
-      <section className=" w-full md:mb-10 pt-6">
+      <section className=" w-full md:mb-10 pt-6 ">
            <div className="relative h-[250px] md:h-full sm:w-full sm:min-h-[400px] rounded-r-[200px] overflow-hidden mx-auto">
                    {/* Background Image */}
                    <Image
@@ -33,19 +33,19 @@ export default function OnlineTax() {
       </h2>
 
       {/* Description */}
-      <div className="w-full md:w-[1100px]">
-      <p className="mt-4 text-[#1E1E1E] leading-relaxed text-[16px] ">
+      <div className="w-full md:w-[1100px] ">
+      <p className="mt-4 text-[#1E1E1E] leading-relaxed text-[16px] lg:text-[20px] ">
         Our online tax return service is designed to provide a seamless, secure, and expert-driven experience. 
         Unlike DIY or automated systems, our team of certified IPA Tax Accountants personally reviews and prepares 
         your tax return, ensuring accuracy, compliance, and the maximum refund you’re entitled to.
       </p>
 
-      <p className="mt-1 text-[#1E1E1E] leading-relaxed text-[16px]">
+      <p className="mt-1 text-[#1E1E1E] leading-relaxed text-[16px] lg:text-[20px] ">
         Getting started is simple—just complete our easy-to-use questionnaire and upload your tax documents. 
         From there, we take care of everything, handling the complexities while you focus on what matters most.
       </p>
 
-      <p className="mt-1 text-[#1E1E1E] leading-relaxed text-[16px]">
+      <p className="mt-1 text-[#1E1E1E] leading-relaxed text-[16px] lg:text-[20px] ">
         Every tax return is meticulously prepared by experienced professionals, and our commitment to data security 
         ensures that your sensitive information remains encrypted and protected at all times. Whether you’re a sole trader, 
         partnership, company, or trust, we streamline the process to make tax filing hassle-free and efficient.

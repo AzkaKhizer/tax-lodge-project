@@ -33,7 +33,7 @@ export default function HowItWorks() {
   const [activeStep, setActiveStep] = useState(1);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center py-10 px-6 gap-10">
+    <div className="flex flex-col md:flex-row items-center justify-center  py-10 px-6 gap-10">
       {/* Left Side - Step Buttons */}
       <div className="flex md:flex-col gap-3">
         {steps.map((step) => (

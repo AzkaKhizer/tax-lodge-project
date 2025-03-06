@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Business() {
   return (
-    <section className="w-full mb-10 pt-6">
+    <section className="w-full mb-10 pt-6 ">
       <div className="relative h-[250px] md:h-full sm:w-full sm:min-h-[400px] rounded-r-[200px] overflow-hidden mx-auto">
         {/* Background Image */}
         <Image

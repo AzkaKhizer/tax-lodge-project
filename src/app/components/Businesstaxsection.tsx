@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function BusinessTaxSection() {
   return (
-    <section className="container mx-auto px-4 py-12 space-y-16">
+    <section className="container mx-auto px-4 py-12 space-y-16 ">
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row items-center  gap-6">
         <div className="md:w-1/2  ">

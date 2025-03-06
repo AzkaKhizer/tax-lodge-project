@@ -25,7 +25,7 @@ export default function TaxServices() {
     return (
         <div className="flex" >
             <div>
-      <section className="max-w-5xl mx-auto p-6 md:p-12 bg-white ">
+      <section className=" mx-auto p-6 md:p-12 bg-white ">
         {/* Image */}
         <div className="overflow-hidden ">
         <Image src="/service.png" alt="Tax Consultation" width={500} height={300} className="w-full h-auto" />
@@ -64,7 +64,7 @@ export default function TaxServices() {
         </div>
       </section>
     
-    <div className="max-w-5xl mx-auto p-6 md:p-12 bg-white">
+    <div className=" mx-auto p-6 md:p-12 bg-white">
       {/* Service Benefits */}
       <div className="mb-12">
         <h2 className="text-2xl md:text-[44px] font-bold text-gray-900">Our Service Benefits</h2>

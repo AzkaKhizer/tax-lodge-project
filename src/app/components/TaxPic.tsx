@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TaxRefundSection() {
   return (
-    <div className=" w-full mb-10 pt-6">
+    <div className=" w-full mb-10 pt-6 ">
         <div className="relative h-[110px] md:h-[231px]">
       {/* Background Image */}
       <Image

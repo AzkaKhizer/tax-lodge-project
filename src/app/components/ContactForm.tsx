@@ -45,9 +45,9 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row items-center gap-10 mt-4">
+    <section className="  mx-auto px-6 md:px-4 py-12 flex flex-col lg:flex-row items-center gap-10 mt-4">
       {/* Left - Map */}
-      <div className="lg:w-1/2 w-full flex justify-center">
+      <div className=" w-full flex justify-center">
         <Image
           src="/map1.png"
           alt="Map"
@@ -58,11 +58,11 @@ const ContactForm = () => {
       </div>
 
       {/* Right - Form */}
-      <div className="lg:w-1/2 w-full">
+      <div className=" w-full">
         <button className="bg-[#FF8B66] text-white px-4 py-2 rounded-[10px] font-semibold">
           CONTACT US
         </button>
-        <h2 className="text-[32px] md:text-[44px] font-bold mt-1 md:w-[578px]">
+        <h2 className="text-[32px] md:text-[38px] font-bold mt-1 md:w-[578px]">
           Let&apos;s Talk About Your Taxes
         </h2>
         <p className="text-gray-600 mt-2 text-sm">

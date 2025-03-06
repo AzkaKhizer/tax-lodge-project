@@ -1,6 +1,6 @@
 export default function TaxReturnSection() {
   return (
-    <section className="relative bg-cover bg-center text-white"
+    <section className="relative bg-cover bg-center text-white "
       style={{ backgroundImage: "url('/calcbg.png')" }}>
       <div className="bg-black bg-opacity-50 p-8 rounded-xl text-center flex justify-center items-center flex-col w-full mx-auto py-16 px-6 md:px-12">
         <h2 className="text-[14px] md:text-[35px] font-semibold">

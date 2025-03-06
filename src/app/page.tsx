@@ -8,8 +8,8 @@ import Affiliations from "./components/Affiliations";
 
 export default function Home() {
   return (
-    <div className="max-w-screen-2xl mx-auto overflow-x-hidden">
-    <div className="bg-[#F2F2F2]  overflow-hidden relative ">
+    <div className="max-w-screen-4xl mx-auto overflow-x-hidden">
+    <div className="bg-[#F2F2F2]  overflow-hidden  relative ">
       <Hero/>
       </div>
       
