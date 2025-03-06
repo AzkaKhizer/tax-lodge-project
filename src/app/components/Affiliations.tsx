@@ -106,10 +106,10 @@ const Affiliations = () => {
             <h2 className='text-[20px]'>Lodge Your Tax Return with Convenience</h2>
           </div>
           <div className='bg-white w-[257px] h-[204px] p-4 flex flex-col'>
-            <p className='text-[16px]'>
-              &ldquo;Our expert accountants ensure you get the maximum refund possible while staying fully compliant.&rdquo;
+            <p className='text-[12px]'>
+              &ldquo;At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.&rdquo;
             </p>
-            <div className='flex mt-2'>
+            <div className='flex mt-6'>
               <Image src='/image5.png' alt='girl' width={42} height={42} />
               <div className='flex flex-col ml-2'>
                 <p className='font-semibold text-[#A19C9C]'>Meredith Fay</p>
@@ -117,7 +117,29 @@ const Affiliations = () => {
               </div>
             </div>
           </div>
-        </div>
+          </div>
+
+
+          <div className='block md:hidden'>
+        <div className='flex m-4 mb-6 md:mb-0 md:m-0 shadow-lg'>
+          <div className='bg-[#FFE0B2] text-black p-4 w-[172px] h-[204px] flex justify-center items-center shadow-lg'>
+            <h2 className='text-[20px]'>We Value Ownership</h2>
+          </div>
+          <div className='bg-white w-[257px] h-[204px] p-2 flex flex-col'>
+            <p className='text-[12px]'>
+              &ldquo;Our expert accountants ensure you get the maximum refund possible while staying fully compliant.&rdquo;
+            </p>
+            <div className='flex mt-6'>
+              <Image src='/image1.png' alt='man' width={42} height={42} className='w-[42px] h-[42px] mt-4'  />
+              <div className='flex flex-col ml-1'>
+                <p className='font-semibold text-[#A19C9C]'>Murtaza Ali Haider</p>
+                <p className='text-sm text-[#A19C9C]'>Principal Accountant</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
 
         <div className='flex justify-center items-center'>
           <button className='rounded-[10px] bg-[#FE5722] text-white px-4 py-2 mt-16'>

@@ -18,12 +18,12 @@ const Hero = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "hidden md:block pt-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: " bg-[#F2F2F2] min-h-screen flex items-center",
+                    className: " bg-[#F2F2F2]  flex items-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full max-w-[1200px] mx-auto flex justify-between items-center px-6",
+                        className: "w-full  mx-auto flex justify-between items-center px-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "max-w-[550px]",
+                                className: "max-w-[896px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-[20px] font-semibold text-white border border-[#FE5722] rounded-[8px] bg-[#FE5722] px-4 py-2 w-fit",
@@ -64,7 +64,7 @@ const Hero = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative w-[566px] h-[650px]",
+                                className: "relative w-[566px] h-[650px] ",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/Frame1.png",
@@ -80,9 +80,8 @@ const Hero = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/man.png",
                                         alt: "hero person",
-                                        width: 500,
+                                        width: 600,
                                         height: 573,
-                                        objectFit: "cover",
                                         className: "absolute  inset-0 top-[150px] left-[-20px] object-fill w-full h-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Hero.tsx",
@@ -114,7 +113,7 @@ const Hero = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col justify-center items-center text-center px-6",
+                    className: "flex flex-col justify-center items-center text-center px-6 mt-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-[40px] mt-24 font-bold",
@@ -570,7 +569,7 @@ const Affiliations = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
                 lineNumber: 8,
-                columnNumber: 3
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-center items-center gap-2 md:gap-16 mb-10",
@@ -582,8 +581,8 @@ const Affiliations = ()=>{
                         height: 100
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 10,
-                        columnNumber: 5
+                        lineNumber: 12,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         src: "/ntaa.png",
@@ -592,8 +591,8 @@ const Affiliations = ()=>{
                         height: 66
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 11,
-                        columnNumber: 5
+                        lineNumber: 13,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         src: "/tpb.png",
@@ -602,14 +601,14 @@ const Affiliations = ()=>{
                         height: 100
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 12,
-                        columnNumber: 5
+                        lineNumber: 14,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                lineNumber: 9,
-                columnNumber: 3
+                lineNumber: 11,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "hidden md:block",
@@ -617,25 +616,25 @@ const Affiliations = ()=>{
                     className: "flex flex-col justify-center items-center ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-center items-center  gap-9 mt-8",
+                            className: "flex justify-center items-center gap-9 mt-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "bg-[#FE5722] text-white p-4 w-[172px] h-[204px] flex justify-center items-center ",
+                                            className: "bg-[#FE5722] text-white p-4 w-[172px] h-[204px] flex justify-center items-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: " text-[20px] ",
+                                                className: "text-[20px]",
                                                 children: "Lodge Your Tax Return with Convenience"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 7
+                                                lineNumber: 23,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 21,
-                                            columnNumber: 5
+                                            lineNumber: 22,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg-white w-[257px] h-[204px] p-4 shadow flex flex-col",
@@ -645,8 +644,8 @@ const Affiliations = ()=>{
                                                     children: "“Our expert accountants ensure you get the maximum refund possible while staying fully compliant.”"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                    lineNumber: 25,
-                                                    columnNumber: 7
+                                                    lineNumber: 26,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex mt-2",
@@ -658,8 +657,8 @@ const Affiliations = ()=>{
                                                             height: 42
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                            lineNumber: 27,
-                                                            columnNumber: 7
+                                                            lineNumber: 30,
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col ml-2",
@@ -669,40 +668,40 @@ const Affiliations = ()=>{
                                                                     children: "Meredith Fay"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                                    lineNumber: 29,
-                                                                    columnNumber: 7
+                                                                    lineNumber: 32,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm text-[#A19C9C]",
                                                                     children: "Accounts Expert"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                                    lineNumber: 30,
-                                                                    columnNumber: 7
+                                                                    lineNumber: 33,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                            lineNumber: 28,
-                                                            columnNumber: 7
+                                                            lineNumber: 31,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                    lineNumber: 26,
-                                                    columnNumber: 7
+                                                    lineNumber: 29,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 24,
-                                            columnNumber: 5
+                                            lineNumber: 25,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 5
+                                    lineNumber: 21,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-[#1E1E1E] text-white p-4 w-[172px] h-[204px] flex justify-center items-center flex-col text-center",
@@ -712,22 +711,22 @@ const Affiliations = ()=>{
                                             children: "Meet Our Experts."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 37,
-                                            columnNumber: 7
+                                            lineNumber: 40,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "border p-2 mt-10",
                                             children: "Meet the team"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 38,
-                                            columnNumber: 7
+                                            lineNumber: 41,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 36,
-                                    columnNumber: 5
+                                    lineNumber: 39,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-[211px] h-[204px] relative",
@@ -735,28 +734,28 @@ const Affiliations = ()=>{
                                         src: "/image6.png",
                                         alt: "image",
                                         layout: "fill",
-                                        objectFit: "cover" // Ensures it fills the given height properly
+                                        objectFit: "cover"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 41,
-                                        columnNumber: 3
+                                        lineNumber: 44,
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 40,
-                                    columnNumber: 5
+                                    lineNumber: 43,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                            lineNumber: 18,
-                            columnNumber: 3
+                            lineNumber: 20,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex justify-center items-center gap-4 mt-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-[213px] h-[234px] relative ",
+                                    className: "w-[213px] h-[234px] relative",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/image.png",
                                         alt: "image",
@@ -764,105 +763,105 @@ const Affiliations = ()=>{
                                         objectFit: "cover"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 58,
-                                        columnNumber: 5
+                                        lineNumber: 51,
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 3
+                                    lineNumber: 50,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-[#FFAB91] w-[172px] h-[234px] p-4 flex flex-col justify-center items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: " text-[20px]",
+                                            className: "text-[20px]",
                                             children: "Certifications And Associations"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 68,
-                                            columnNumber: 5
+                                            lineNumber: 55,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "border border-[#1E1E1E] p-2 mt-10 text-[14px] text-[#1E1E1E] ",
+                                            className: "border border-[#1E1E1E] p-2 mt-10 text-[14px] text-[#1E1E1E]",
                                             children: "See Our Certifications"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 69,
-                                            columnNumber: 5
+                                            lineNumber: 56,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 3
+                                    lineNumber: 54,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-4 shadow w-[470px] h-[234px] flex flex-col justify-center items-center ",
+                                    className: "bg-white p-4 shadow w-[470px] h-[234px] flex flex-col justify-center items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "font-bold text-[26px] leading-tight mb-6",
                                             children: "Client Testimonial"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 74,
-                                            columnNumber: 5
+                                            lineNumber: 62,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "italic text-sm",
                                             children: "“This team made my tax return process seamless! Highly recommend.”"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 75,
-                                            columnNumber: 5
+                                            lineNumber: 63,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "border border-[#1E1E1E] p-2 mt-2",
                                             children: "See More"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 76,
-                                            columnNumber: 5
+                                            lineNumber: 66,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 73,
-                                    columnNumber: 3
+                                    lineNumber: 61,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                            lineNumber: 53,
-                            columnNumber: 2
+                            lineNumber: 49,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex justify-center items-center gap-10 mt-8 ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-[#A9A1A1] text-white p-4 w-[172px] h-[228px] flex justify-center items-center flex-col ",
+                                    className: "bg-[#A9A1A1] text-white p-4 w-[172px] h-[228px] flex justify-center items-center flex-col",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "font-bold text-lg ",
+                                            className: "font-bold text-lg",
                                             children: "Start Your Tax Return Today"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 87,
-                                            columnNumber: 7
+                                            lineNumber: 73,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "border p-2 mt-20 pr-7 pl-7",
                                             children: "Get Started"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 88,
-                                            columnNumber: 7
+                                            lineNumber: 74,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 86,
-                                    columnNumber: 5
+                                    lineNumber: 72,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex",
@@ -870,28 +869,28 @@ const Affiliations = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg-[#FF8B66] p-4 w-[172px] h-[228px] flex justify-center items-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: " text-[20px] text-white ",
+                                                className: "text-[20px] text-white",
                                                 children: "We Value Ownership"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 92,
-                                                columnNumber: 7
+                                                lineNumber: 78,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 91,
-                                            columnNumber: 5
+                                            lineNumber: 77,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg-white p-4 shadow w-[271px] h-[228px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-[#1E1E1E] text-[16px] ",
-                                                    children: '"At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence."'
+                                                    className: "text-[#1E1E1E] text-[16px]",
+                                                    children: "“At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.”"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                    lineNumber: 96,
-                                                    columnNumber: 7
+                                                    lineNumber: 82,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex mt-12",
@@ -903,8 +902,8 @@ const Affiliations = ()=>{
                                                             height: 42
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                            lineNumber: 98,
-                                                            columnNumber: 7
+                                                            lineNumber: 86,
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col ml-4 text-[#A19C9C]",
@@ -914,82 +913,82 @@ const Affiliations = ()=>{
                                                                     children: "Murtaza Ali Haider"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                                    lineNumber: 100,
-                                                                    columnNumber: 7
+                                                                    lineNumber: 88,
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm",
                                                                     children: "Principal Accountant"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                                    lineNumber: 101,
-                                                                    columnNumber: 7
+                                                                    lineNumber: 89,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                            lineNumber: 99,
-                                                            columnNumber: 7
+                                                            lineNumber: 87,
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                    lineNumber: 97,
-                                                    columnNumber: 7
+                                                    lineNumber: 85,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 95,
-                                            columnNumber: 5
+                                            lineNumber: 81,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 90,
-                                    columnNumber: 5
+                                    lineNumber: 76,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-[#FFE0B2] w-[193px] h-[228px] p-6 flex justify-center items-center flex-col",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: " text-[20px] ",
+                                            className: "text-[20px]",
                                             children: "Meet The Lodgers"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 107,
-                                            columnNumber: 7
+                                            lineNumber: 95,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "border border-[#1E1E1E] p-2 pr-8 pl-8 mt-20",
                                             children: "See More"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                                            lineNumber: 108,
-                                            columnNumber: 7
+                                            lineNumber: 96,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 106,
-                                    columnNumber: 5
+                                    lineNumber: 94,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                            lineNumber: 85,
-                            columnNumber: 3
+                            lineNumber: 71,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                    lineNumber: 17,
-                    columnNumber: 3
+                    lineNumber: 19,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                lineNumber: 16,
-                columnNumber: 3
+                lineNumber: 18,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden",
@@ -998,33 +997,33 @@ const Affiliations = ()=>{
                         className: "flex m-4 mb-6 md:mb-0 md:m-0 shadow-lg",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#FE5722] text-white p-4 w-[172px] h-[204px] flex justify-center items-center shadow-lg ",
+                                className: "bg-[#FE5722] text-white p-4 w-[172px] h-[204px] flex justify-center items-center shadow-lg",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: " text-[20px] ",
+                                    className: "text-[20px]",
                                     children: "Lodge Your Tax Return with Convenience"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 117,
-                                    columnNumber: 7
+                                    lineNumber: 106,
+                                    columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                lineNumber: 116,
-                                columnNumber: 5
+                                lineNumber: 105,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white w-[257px] h-[204px] p-4  flex flex-col",
+                                className: "bg-white w-[257px] h-[204px] p-4 flex flex-col",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[16px]",
-                                        children: "“Our expert accountants ensure you get the maximum refund possible while staying fully compliant.”"
+                                        className: "text-[12px]",
+                                        children: "“At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence.”"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 120,
-                                        columnNumber: 7
+                                        lineNumber: 109,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex mt-2",
+                                        className: "flex mt-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/image5.png",
@@ -1033,8 +1032,8 @@ const Affiliations = ()=>{
                                                 height: 42
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 122,
-                                                columnNumber: 7
+                                                lineNumber: 113,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex flex-col ml-2",
@@ -1044,164 +1043,165 @@ const Affiliations = ()=>{
                                                         children: "Meredith Fay"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                        lineNumber: 124,
-                                                        columnNumber: 7
+                                                        lineNumber: 115,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-sm text-[#A19C9C]",
                                                         children: "Accounts Expert"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                        lineNumber: 125,
-                                                        columnNumber: 7
+                                                        lineNumber: 116,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 123,
-                                                columnNumber: 7
+                                                lineNumber: 114,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 7
+                                        lineNumber: 112,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                                lineNumber: 119,
-                                columnNumber: 5
+                                lineNumber: 108,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 115,
-                        columnNumber: 3
+                        lineNumber: 104,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex m-4 md:m-0 shadow-lg",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-[#FFE0B2] p-4 w-[172px] h-[228px] flex justify-center items-center ",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: " text-[20px] text-black ",
-                                    children: "We Value Ownership"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/Affiliations.tsx",
-                                    lineNumber: 134,
-                                    columnNumber: 7
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Affiliations.tsx",
-                                lineNumber: 133,
-                                columnNumber: 5
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white p-4  w-[271px] h-[228px]",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[#1E1E1E] text-[16px] ",
-                                        children: '"At Tax Lodge Online, our top priority is delivering exceptional service to those who trust us, always striving for excellence."'
+                        className: "block md:hidden",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex m-4 mb-6 md:mb-0 md:m-0 shadow-lg",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-[#FFE0B2] text-black p-4 w-[172px] h-[204px] flex justify-center items-center shadow-lg",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "text-[20px]",
+                                        children: "We Value Ownership"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 138,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex mt-8 md:mt-12",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/image1.png",
-                                                alt: "man",
-                                                width: 44,
-                                                height: 42
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 140,
-                                                columnNumber: 7
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col ml-4 text-[#A19C9C]",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "font-semibold",
-                                                        children: "Murtaza Ali Haider"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                        lineNumber: 142,
-                                                        columnNumber: 7
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-sm",
-                                                        children: "Principal Accountant"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                        lineNumber: 143,
-                                                        columnNumber: 7
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/components/Affiliations.tsx",
-                                                lineNumber: 141,
-                                                columnNumber: 7
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/Affiliations.tsx",
-                                        lineNumber: 139,
-                                        columnNumber: 7
+                                        lineNumber: 126,
+                                        columnNumber: 13
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/Affiliations.tsx",
-                                lineNumber: 137,
-                                columnNumber: 5
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 132,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-center items-center",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-center text-center items-center bg-[#FE5722] text-white rounded-[10px] px-4 py-8 mt-16 w-[150px] h-[40px]",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "rounded-[10px]",
-                                children: "GET STARTED"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/Affiliations.tsx",
-                                lineNumber: 150,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Affiliations.tsx",
+                                    lineNumber: 125,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-white w-[257px] h-[204px] p-2 flex flex-col",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-[12px]",
+                                            children: "“Our expert accountants ensure you get the maximum refund possible while staying fully compliant.”"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/Affiliations.tsx",
+                                            lineNumber: 129,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex mt-6",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/image1.png",
+                                                    alt: "man",
+                                                    width: 42,
+                                                    height: 42,
+                                                    className: "w-[42px] h-[42px] mt-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/components/Affiliations.tsx",
+                                                    lineNumber: 133,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex flex-col ml-1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "font-semibold text-[#A19C9C]",
+                                                            children: "Murtaza Ali Haider"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/components/Affiliations.tsx",
+                                                            lineNumber: 135,
+                                                            columnNumber: 17
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm text-[#A19C9C]",
+                                                            children: "Principal Accountant"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/components/Affiliations.tsx",
+                                                            lineNumber: 136,
+                                                            columnNumber: 17
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/components/Affiliations.tsx",
+                                                    lineNumber: 134,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/components/Affiliations.tsx",
+                                            lineNumber: 132,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/components/Affiliations.tsx",
+                                    lineNumber: 128,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/app/components/Affiliations.tsx",
-                            lineNumber: 149,
-                            columnNumber: 7
+                            lineNumber: 124,
+                            columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Affiliations.tsx",
-                        lineNumber: 148,
-                        columnNumber: 5
+                        lineNumber: 123,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex justify-center items-center",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "rounded-[10px] bg-[#FE5722] text-white px-4 py-2 mt-16",
+                            children: "GET STARTED"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/Affiliations.tsx",
+                            lineNumber: 145,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/Affiliations.tsx",
+                        lineNumber: 144,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                lineNumber: 114,
-                columnNumber: 3
+                lineNumber: 103,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$Testimonial$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/components/Affiliations.tsx",
-                    lineNumber: 156,
+                    lineNumber: 152,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Affiliations.tsx",
-                lineNumber: 155,
+                lineNumber: 151,
                 columnNumber: 7
             }, this)
         ]
