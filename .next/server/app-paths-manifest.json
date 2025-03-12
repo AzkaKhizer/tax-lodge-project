@@ -1,9 +1,8 @@
 {
-  "/OnlineTaxReturn/page": "app/OnlineTaxReturn/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/ServiceDetails/page": "app/ServiceDetails/page.js",
-  "/Calculator/page": "app/Calculator/page.js",
-  "/ContactUs/page": "app/ContactUs/page.js",
   "/page": "app/page.js",
-  "/PricingPage/page": "app/PricingPage/page.js"
+  "/contactus/page": "app/contactus/page.js",
+  "/calculator/page": "app/calculator/page.js",
+  "/businesstax/page": "app/businesstax/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

@@ -148,7 +148,7 @@ const WelcomeSection = ()=>{
                     alt: "Using a calculator",
                     width: 500,
                     height: 333,
-                    className: "rounded-[20px] shadow-md md:w-[500px] "
+                    className: "rounded-[20px] shadow-md md:w-[500px] lg:w-[700px]"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/WelcomeCalc.tsx",
                     lineNumber: 8,
@@ -160,10 +160,10 @@ const WelcomeSection = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full md:w-1/2    mt-6 md:mt-0",
+                className: "w-full md:w-1/2 lg:w-full   mt-6 md:mt-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-[25px] md:text-[50px] text-[#1E1E1E] font-bold mb-2 w-[900px]",
+                        className: "text-[25px] md:text-[50px] lg:text-[60px] text-[#1E1E1E] font-bold mb-2 w-[900px] ",
                         children: "Welcome To Pay Calculator"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",
@@ -171,7 +171,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-[#1E1E1E] text-[12px] md:text-[16px] mb-2",
+                        className: "text-[#1E1E1E] text-[12px] md:text-[16px] lg:text-[20px] mb-2",
                         children: "Easily calculate your net income after factoring in tax withheld, superannuation entitlement, HELP debt (if applicable), Medicare levy, and any tax offset entitlement using the tool below."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",
@@ -179,7 +179,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "space-y-2 text-gray-700 text-[12px] md:text-[16px]",
+                        className: "space-y-2 text-gray-700 text-[12px] md:text-[16px] lg:text-[20px]",
                         children: [
                             "Enter your gross income (before tax) in the '$' box.",
                             "Select the relevant income period (weekly, monthly, yearly).",
@@ -208,7 +208,7 @@ const WelcomeSection = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mt-2 text-[#1E1E1E] text-[12px] md:text-[16px]",
+                        className: "mt-2 text-[#1E1E1E] text-[12px] md:text-[16px] lg:text-[20px]",
                         children: "The calculator will provide you with an estimate of your net income, which represents the amount you will receive after accounting for all the deductions mentioned above."
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/WelcomeCalc.tsx",

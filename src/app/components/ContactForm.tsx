@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface FormInputs {
   firstName: string;
@@ -18,7 +19,7 @@ const ContactForm = () => {
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm<FormInputs>(); // ✅ Fix: Type-safe form inputs
+  } = useForm<FormInputs>();
 
   const [status, setStatus] = useState<string>("");
 
@@ -34,7 +35,7 @@ const ContactForm = () => {
 
       if (response.ok) {
         setStatus("✅ Message sent successfully!");
-        reset(); // Clear form
+        reset();
       } else {
         setStatus("❌ Error sending message. Try again.");
       }
@@ -45,9 +46,17 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="  mx-auto px-6 md:px-4 py-12 flex flex-col lg:flex-row items-center gap-10 mt-4">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="mx-auto px-6 md:px-4 py-12 flex flex-col lg:flex-row items-center gap-10 mt-4"
+    >
       {/* Left - Map */}
-      <div className=" w-full flex justify-center">
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        className="w-full flex justify-center"
+      >
         <Image
           src="/map1.png"
           alt="Map"
@@ -55,60 +64,66 @@ const ContactForm = () => {
           height={600}
           className="rounded-lg shadow-lg md:h-[600px]"
         />
-      </div>
+      </motion.div>
 
       {/* Right - Form */}
-      <div className=" w-full">
-        <button className="bg-[#FF8B66] text-white px-4 py-2 rounded-[10px] font-semibold">
+      <div className="w-full 2xl:m-10">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          className="bg-[#FF8B66] text-white text-sm md:text-lg 2xl:text-xl md:px-4 md:py-2 2xl:px-6 2xl:py-4 rounded-[10px] font-semibold"
+        >
           CONTACT US
-        </button>
-        <h2 className="text-[32px] md:text-[38px] font-bold mt-1 md:w-[578px]">
+        </motion.button>
+        <h2 className="text-[32px] md:text-[38px] 2xl:text-[42px] font-bold mt-1 md:w-[578px]">
           Let&apos;s Talk About Your Taxes
         </h2>
-        <p className="text-gray-600 mt-2 text-sm">
+        <p className="text-gray-600 mt-2 text-sm md:text-lg 2xl:text-2xl">
           Your success starts with a conversation! We believe informed decisions lead to better financial outcomes. Our team is here to guide you through tax lodgment, accounting, and business advisory with clarity and confidence.
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="flex flex-col">
-            <input {...register("firstName", { required: true })} type="text" placeholder="First Name *" className="border p-3 rounded-[10px] w-full" />
-            {errors.firstName && <p className="text-red-500 text-xs">First name is required.</p>}
-          </div>
+          {["firstName", "lastName", "email", "phone", "subject", "message"].map((field, index) => (
+            <motion.div
+              key={field}
+              initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className={`flex flex-col ${field === "message" ? "col-span-1 sm:col-span-2" : "col-span-1"}`}
+            >
+              {field !== "message" ? (
+                <input
+                  {...register(field as keyof FormInputs, { required: true })}
+                  type={field === "email" ? "email" : "text"}
+                  placeholder={`${field.charAt(0).toUpperCase() + field.slice(1)} *`}
+                  className="border p-3 md:p-3 2xl:p-5 text-sm md:text-lg 2xl:text-2xl rounded-[10px] w-full"
+                />
+              ) : (
+                <textarea
+                  {...register("message", { required: true })}
+                  placeholder="How can we help you? *"
+                  rows={4}
+                  className="border p-3 md:p-3 2xl:p-5 text-sm md:text-lg 2xl:text-2xl rounded-[10px] w-full"
+                ></textarea>
+              )}
+              {errors[field as keyof FormInputs] && (
+                <p className="text-red-500 text-xs">{`${field.charAt(0).toUpperCase() + field.slice(1)} is required.`}</p>
+              )}
+            </motion.div>
+          ))}
 
-          <div className="flex flex-col">
-            <input {...register("lastName", { required: true })} type="text" placeholder="Last Name *" className="border p-3 rounded-[10px] w-full" />
-            {errors.lastName && <p className="text-red-500 text-xs">Last name is required.</p>}
-          </div>
-
-          <div className="flex flex-col col-span-1">
-            <input {...register("email", { required: true, pattern: /^\S+@\S+$/i })} type="email" placeholder="Email Address *" className="border p-3 rounded-[10px] w-full" />
-            {errors.email && <p className="text-red-500 text-xs">Valid email is required.</p>}
-          </div>
-
-          <div className="flex flex-col col-span-1">
-            <input {...register("phone", { required: true })} type="text" placeholder="Phone Number *" className="border p-3 rounded-[10px] w-full" />
-            {errors.phone && <p className="text-red-500 text-xs">Phone number is required.</p>}
-          </div>
-
-          <div className="flex flex-col col-span-1 sm:col-span-2">
-            <input {...register("subject", { required: true })} type="text" placeholder="Subject *" className="border p-3 rounded-[10px] w-full" />
-            {errors.subject && <p className="text-red-500 text-xs">Subject is required.</p>}
-          </div>
-
-          <div className="flex flex-col col-span-1 sm:col-span-2">
-            <textarea {...register("message", { required: true })} placeholder="How can we help you? *" rows={4} className="border p-3 rounded-[10px] w-full"></textarea>
-            {errors.message && <p className="text-red-500 text-xs">Message is required.</p>}
-          </div>
-
-          <button type="submit" className="bg-[#FF8B66] text-white px-2 py-3 rounded-[10px] font-semibold col-span-1 hover:bg-orange-500">
+          <motion.button
+            whileHover={{ scale: 1.1, backgroundColor: "#FF6600" }}
+            type="submit"
+            className="bg-[#FF8B66] text-white px-2 py-3 rounded-[10px] font-semibold col-span-1"
+          >
             SEND NOW
-          </button>
+          </motion.button>
         </form>
 
         {/* Status Message */}
         {status && <p className="mt-2 text-sm text-gray-700">{status}</p>}
       </div>
-    </section>
+    </motion.section>
   );
 };
 
