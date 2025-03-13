@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Search, Send } from "lucide-react"; // For search & send icons
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
-import { motion } from 'framer-motion'; 
 import Link from "next/link";
 
 const service = [
@@ -23,10 +22,7 @@ export default function TaxServices() {
         s.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
-      const fadeIn = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-      };
+     
       
     return (
       <div className="flex">

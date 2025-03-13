@@ -37,7 +37,7 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 lg:space-x-10">
-          {navLinks.map((link, index) => (
+          {navLinks.map((link) => (
             <motion.div
               key={link.name}
               variants={linkVariants}

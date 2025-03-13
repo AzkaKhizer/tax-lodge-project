@@ -1,5 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
 
 import React from "react";
 import Image from "next/image";
@@ -9,8 +8,7 @@ import NewClientsCard from "./clientCard";
 import EarningsCard from "./dollarCard";
 
 const Hero = () => {
-  // ✅ Declare useState at the top before return
-  const [hovered, setHovered] = useState(false);
+
 
   return (
     
