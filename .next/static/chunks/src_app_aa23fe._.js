@@ -184,106 +184,103 @@ const Pricing = ()=>{
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-wrap justify-center gap-6",
-                    children: [
-                        plans.map((plan, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                className: `w-[416px] h-[580px] p-6 rounded-lg shadow-lg ${plan.bgColor} ${plan.textColor} flex flex-col`,
-                                initial: {
-                                    opacity: 0,
-                                    y: 50
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                whileHover: {
-                                    scale: 1.05,
-                                    boxShadow: "0 10px 20px rgba(0, 0, 0, 0.2)"
-                                },
-                                transition: {
-                                    duration: 0.6,
-                                    delay: index * 0.2
-                                },
-                                viewport: {
-                                    once: true
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-bold text-center",
-                                        children: plan.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/Pricing.tsx",
-                                        lineNumber: 181,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg font-semibold mt-2 text-center",
-                                        children: plan.price
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/Pricing.tsx",
-                                        lineNumber: 182,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "mt-4 space-y-2 text-sm flex-grow",
-                                        children: plan.features.map((feature, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: `rounded-full w-6 h-6 flex items-center justify-center mr-2 border-2 ${plan.borderColor} ${plan.borderBgColor}`,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                            className: `h-4 w-4 ${plan.tickColor}`,
-                                                            fill: "none",
-                                                            viewBox: "0 0 24 24",
-                                                            stroke: "currentColor",
-                                                            strokeWidth: 3,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                                strokeLinecap: "round",
-                                                                strokeLinejoin: "round",
-                                                                d: "M5 13l4 4L19 7"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/components/Pricing.tsx",
-                                                                lineNumber: 196,
-                                                                columnNumber: 15
-                                                            }, this)
+                    children: plans.map((plan, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            className: `w-[416px] h-[580px] p-6 rounded-lg shadow-lg ${plan.bgColor} ${plan.textColor} flex flex-col`,
+                            initial: {
+                                opacity: 0,
+                                y: 50
+                            },
+                            whileInView: {
+                                opacity: 1,
+                                y: 0
+                            },
+                            whileHover: {
+                                scale: 1.05,
+                                boxShadow: "0 10px 20px rgba(0, 0, 0, 0.2)"
+                            },
+                            transition: {
+                                duration: 0.6,
+                                delay: index * 0.2
+                            },
+                            viewport: {
+                                once: true
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-xl font-bold text-center",
+                                    children: plan.title
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Pricing.tsx",
+                                    lineNumber: 181,
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg font-semibold mt-2 text-center",
+                                    children: plan.price
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Pricing.tsx",
+                                    lineNumber: 182,
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "mt-4 space-y-2 text-sm flex-grow",
+                                    children: plan.features.map((feature, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            className: "flex items-center",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: `rounded-full w-6 h-6 flex items-center justify-center mr-2 border-2 ${plan.borderColor} ${plan.borderBgColor}`,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                        className: `h-4 w-4 ${plan.tickColor}`,
+                                                        fill: "none",
+                                                        viewBox: "0 0 24 24",
+                                                        stroke: "currentColor",
+                                                        strokeWidth: 3,
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                            strokeLinecap: "round",
+                                                            strokeLinejoin: "round",
+                                                            d: "M5 13l4 4L19 7"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Pricing.tsx",
-                                                            lineNumber: 189,
-                                                            columnNumber: 13
+                                                            lineNumber: 196,
+                                                            columnNumber: 15
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/Pricing.tsx",
-                                                        lineNumber: 186,
-                                                        columnNumber: 11
-                                                    }, this),
-                                                    feature
-                                                ]
-                                            }, i, true, {
-                                                fileName: "[project]/src/app/components/Pricing.tsx",
-                                                lineNumber: 185,
-                                                columnNumber: 9
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/Pricing.tsx",
-                                        lineNumber: 183,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "mt-1 w-full mb-4 bg-black text-white py-2 rounded-lg hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
-                                        children: "GET STARTED"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/Pricing.tsx",
-                                        lineNumber: 203,
-                                        columnNumber: 5
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/src/app/components/Pricing.tsx",
-                                lineNumber: 172,
-                                columnNumber: 3
-                            }, this)),
-                        "))}"
-                    ]
-                }, void 0, true, {
+                                                        lineNumber: 189,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/components/Pricing.tsx",
+                                                    lineNumber: 186,
+                                                    columnNumber: 11
+                                                }, this),
+                                                feature
+                                            ]
+                                        }, i, true, {
+                                            fileName: "[project]/src/app/components/Pricing.tsx",
+                                            lineNumber: 185,
+                                            columnNumber: 9
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Pricing.tsx",
+                                    lineNumber: 183,
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "mt-1 w-full mb-4 bg-black text-white py-2 rounded-lg hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300",
+                                    children: "GET STARTED"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/Pricing.tsx",
+                                    lineNumber: 203,
+                                    columnNumber: 5
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "[project]/src/app/components/Pricing.tsx",
+                            lineNumber: 172,
+                            columnNumber: 3
+                        }, this))
+                }, void 0, false, {
                     fileName: "[project]/src/app/components/Pricing.tsx",
                     lineNumber: 170,
                     columnNumber: 9

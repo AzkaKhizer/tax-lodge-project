@@ -54,9 +54,9 @@ const Footer = () => {
     { name: "Business Tax", url: "/businesstax" },
     { name: "Online Tax Return", url: "/onlinetaxreturn" },
     { name: "Pay Calculator", url: "/calculator" },
-    { name: "Terms & Conditions", url: "/terms" },
-    { name: "Privacy Policy", url: "/privacy" },
-    { name: "Refund Policy", url: "/refund" },
+    { name: "Terms & Conditions", url: "/termsandconditions" },
+    { name: "Privacy Policy", url: "/privacypolicy" },
+    { name: "Refund Policy", url: "/refund-policy" },
     { name: "Contact Us", url: "/contactus" }
   ].map((link, index) => (
     <li key={index}>

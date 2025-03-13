@@ -117,20 +117,31 @@ const Hero = () => {
     
       {/* Mobile View */}
       <div className="block md:hidden bg-white">
-        <div className="flex flex-col justify-center items-center text-center px-6 mt-5">
-          <h2 className="text-[40px] mt-24 font-bold">
-            Welcome To <span className="text-[#FE5722]">Tax Lodge Online</span>
-          </h2>
-          <Image
-            src="/tlo.png"
-            alt="tlo"
-            width={405}
-            height={243}
-            className="w-full h-auto object-contain mt-4"
-          />
-        </div>
-      </div>
-    </div>
+  <motion.div
+    className="flex flex-col justify-center items-center text-center px-6 mt-5"
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+  >
+    <h2 className="text-[40px] mt-24 font-bold">
+      Welcome To <span className="text-[#FE5722]">Tax Lodge Online</span>
+    </h2>
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.3 }}
+    >
+      <Image
+        src="/tlo.png"
+        alt="tlo"
+        width={405}
+        height={243}
+        className="w-full h-auto object-contain mt-4"
+      />
+    </motion.div>
+  </motion.div>
+</div>
+</div>
     
   );
 };

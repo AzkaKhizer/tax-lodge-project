@@ -14,6 +14,15 @@ const buttonVariants = {
   hover: { scale: 1.05, transition: { duration: 0.2 } },
   tap: { scale: 0.95 }
 };
+const navLinks = [
+  { name: 'Home', path: '/' },
+  { name: 'Services', path: '/servicedetails' },
+  { name: 'Business Tax', path: '/businesstax' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Pricing', path: '/pricing' },
+  { name: 'Pay Calculator', path: '/calculator' },
+  { name: 'Contact', path: '/contactus' }
+];
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,19 +37,19 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 lg:space-x-10">
-          {['Home', 'Services', 'Business Tax', 'Blog', 'Pricing', 'Pay Calculator', 'Contact'].map((item, index) => (
+          {navLinks.map((link, index) => (
             <motion.div
-              key={item}
+              key={link.name}
               variants={linkVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.8 }}
             >
               <Link
-                href={`/${item.toLowerCase().replace(' ', '')}`}
+                href={link.path}
                 className="text-black hover:text-[#FE5722] transition duration-300 2xl:text-xl"
               >
-                {item}
+                {link.name}
               </Link>
             </motion.div>
           ))}
