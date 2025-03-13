@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -20,7 +20,7 @@ export default function TaxReturnSection() {
           whileHover={{ scale: 1.05, color: "#FFAB91" }}
         >
           Lodge your personal tax return conveniently by clicking
-          <span className="text-orange-500 font-bold"> "Get Started"</span>
+          <span className="text-orange-500 font-bold"> &quot;Get Started&quot;</span>
         </motion.h2>
 
         <motion.button
