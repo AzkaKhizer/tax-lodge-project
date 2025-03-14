@@ -82,7 +82,7 @@ const Header = () => {
       {isOpen && (
         <nav className="md:hidden mt-4 flex flex-col space-y-4 text-black">
           <Link href="/" className="hover:text-[#FE5722] ml-3 ">Home</Link>
-          <Link href="/servicedetails" className="hover:text-[#FE5722] ml-3 ">Sevices</Link>
+          <Link href="/servicedetails" className="hover:text-[#FE5722] ml-3 ">Services</Link>
           <Link href="/businesstax" className="hover:text-[#FE5722] ml-3 ">Business Tax</Link>
           <Link href="/blog" className="hover:text-[#FE5722] ml-3 ">Blog</Link>
           <Link href="/pricing" className="hover:text-[#FE5722] ml-3 ">Pricing</Link>
