@@ -159,7 +159,7 @@ export default function TaxServices() {
     >
       {/* Link on text */}
       {service === "Online Tax Return" ? (
-        <Link href="/OnlineTaxReturn" className="text-black text-[18px] font-semibold">
+        <Link href="/onlinetaxreturn" className="text-black text-[18px] font-semibold">
           {service}
         </Link>
       ) : (
@@ -168,7 +168,7 @@ export default function TaxServices() {
 
       {/* Link on arrow */}
       {service === "Online Tax Return" ? (
-        <Link href="/OnlineTaxReturn">
+        <Link href="/onlinetaxreturn">
           <span className="text-black border-[#FFE1D8] bg-[#FFE1D8] rounded-full px-3 py-2 hover:bg-orange-300">
             ➜
           </span>
